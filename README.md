@@ -62,7 +62,7 @@ First go to LED hardware and make the settings under LED controller.
 You can choose WLED under LED-controller, but some bugs speak against it.
 So I prefer here as controller type: udpraw, RGB byte order: RGB, update time 0, target IP: IP address of your ESP/WLED and port: 19446.
 
-![udp raw](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/7cdaa010-40e2-4185-a8a1-2ce7e547bd6d)
+![udp raw](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/77f1c58c-c5c2-47c8-bb57-6eda23c6328a)
 
 HyperHDR LED Controller type settings for RP2040-USB controller with “HyperSerialPico” firmware:
 
@@ -155,6 +155,7 @@ Just google:
 Quinled-dig-uno-v3-digital-led-controller:
 
 ![quinled-dig-uno-v3-digital-led-controller](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/66fc94af-7ecf-4a95-aca9-0390492be823)
+![UNO V3](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/4a7c293d-b0b8-4895-93e8-e56d52f9c32f)
 
 ABC! WLED Controller Board+Ethernet_Adapter:
 
