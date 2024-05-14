@@ -139,6 +139,21 @@ Under LED device, the LEDs can be switched off and on as required.
 
 ![HyperHDR Remote Control](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/cc5cc695-3846-4cf5-9b3a-c528c5860451)
 
+Protokolle:
+Ob der LED-Controller korrekt erkannt wurde, können Sie unter HyperHDR Logs einsehen. Für die USB-Verbindung auch unter webOS Device Manager Debug, „dmesg“.
+
+HyperserialPico Log:
+
+![HyperSerialPico](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/a8f9e0ea-d95b-4426-9fde-e00385b33aac)
+
+LG  Debug dmesg Log
+
+![webos Manager Debug dmesg](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/ecd21d64-1efe-4643-933c-59115530ee1b)
+
+WLED Log:
+
+![WLED Logs](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/3c608c7f-685b-4dd5-8745-c70776dcb175)
+
 Important note when using ESP32 Controller:
 
 When using ESP32 LED controller with WLED firmware, it is necessary to make further settings under WLED depending on the LED type, RGB or RGBW used. For example, when using four channel LEDs such as SK6812RGBW. 
