@@ -17,9 +17,9 @@ First, you should pay attention to the following points in Homebrew Channel:
 5. reboot system to apply (perform reboot)
 6. ![Homebrew Channel Settings](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/e7323b74-5cca-4db1-80a0-ae7ab149c2ef)
 
-7. PicCap:
+PicCap:
 
-8. Install PicCap from Homebrew Channel and restart.
+Install PicCap from Homebrew Channel and restart.
 As an alternative to the direct installation from Homebrew Channels, the webOS Device Manager from GitHub can also be used for the installation. 
 See: https://github.com/webosbrew/dev-manager-desktop
 Important! Under Add Device Connection Mode, select Use SSH Server by Homebrew Channel. (Username for this = root and password = alpine)
