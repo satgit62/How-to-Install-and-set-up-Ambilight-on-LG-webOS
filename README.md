@@ -139,14 +139,15 @@ Under LED device, the LEDs can be switched off and on as required.
 
 ![HyperHDR Remote Control](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/cc5cc695-3846-4cf5-9b3a-c528c5860451)
 
-Protokolle:
-Ob der LED-Controller korrekt erkannt wurde, können Sie unter HyperHDR Logs einsehen. Für die USB-Verbindung auch unter webOS Device Manager Debug, „dmesg“.
+Logs:
+
+You can view whether the LED controller has been recognized correctly under HyperHDR Logs. For the USB connection also under webOS Device Manager Debug, “dmesg”.
 
 HyperserialPico Log:
 
 ![HyperSerialPico](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/a8f9e0ea-d95b-4426-9fde-e00385b33aac)
 
-LG  Debug dmesg Log
+LG USB Debug dmesg Log
 
 ![webos Manager Debug dmesg](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/ecd21d64-1efe-4643-933c-59115530ee1b)
 
