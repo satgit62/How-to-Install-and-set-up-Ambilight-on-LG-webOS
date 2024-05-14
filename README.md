@@ -193,6 +193,8 @@ For those who do not use a ready-made LED controller with a built-in level shift
 
 Example Connection of various LED controllers:
 
+RP2040 Adalight Feather Scorpio mit Level Shifter Ausgang GPIO 16.
+
 ![LED 4 Seitige Aufbau HyperSerialPico](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/70693991-ed28-4208-94d0-e0c9541de007)
 
 ![ABC! WLED Controller V41 ESP32](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/3d5f4588-11ac-408b-a0aa-060fcb1f2417)
