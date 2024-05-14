@@ -78,11 +78,11 @@ The white channel of the “Neutral RGBW” LEDs does not come close to the colo
 
 ![White channel calibration RGBW only](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/710579ab-d440-46e4-ba85-b2f56dc3261b)
 
-Other LED controllers:
+Other LED Controllers:
 
 I would like to mention at this point that there are several ESP controllers with HyperSerial drivers from awawa-dev in GitHub, which can be installed on both ESP8266 and ESP32. For details and separate settings, please see:  https://github.com/awawa-dev/HyperSerialEsp8266 and https://github.com/awawa-dev/HyperSerialESP32/
 
-LED layout:
+LED Layout:
 
 In the second step, we go to LED layout.
 Here you have to create the LED geometry of your TV, enter the exact number of LEDs top, bottom, left and right as well as the input position. (This is the first LED in configuration)
@@ -97,7 +97,7 @@ In the next step, we turn to the menu effects (effects) and ensure that the boat
 
 ![Effects](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/af77184a-ac00-445f-9d36-f4e0a32322d9)
 
-Image processing:
+Image Processing:
 
 Under image processing, you have the choice between “Classic HyperHDR calibration” and not “Classic HyperHDR calibration”.
 When using WLED, the “Classic HyperHDR calibration” is suitable, as the saturation can regulate the color intensity.
@@ -120,7 +120,7 @@ To avoid flickering and unsteadiness in LEDs, the next step is to activate and s
 
 ![HyperHDR Smoothing](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/310818e6-f476-4820-b43e-f8ae7da18c51)
 
-LED visualization:
+LED Visualization:
 
 A live image captured by PicCap must be visible in the HyperHDR LED visualization menu. No image is visible when DRM content is played via internal apps such as NETFLIX. 
 If you want to watch DRM-protected content such as NETFLIX, Disney & Co., you must use an external HDMI player such as Apple TV or FireTV, as the DRM restrictions do not apply via the TV's HDMI inputs.
@@ -152,7 +152,7 @@ For those who prefer WLED firmware because of all the extras, but have had a bad
 Just google: 
 “QuinLED Dig Uno v3 DIGITAL LED controller”, which is also available with LAN and acrylic housing. Or “ABC! WLED Controller Board V43 (5-24V)", ‘Ethernet Adapter for WLED Controller’ and ‘Housing for WLED Boards’. The controllers are supplied with WLED.
 
-quinled-dig-uno-v3-digital-led-controller:
+Quinled-dig-uno-v3-digital-led-controller:
 
 ![quinled-dig-uno-v3-digital-led-controller](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/66fc94af-7ecf-4a95-aca9-0390492be823)
 
@@ -160,7 +160,7 @@ ABC! WLED Controller Board+Ethernet_Adapter:
 
 ![ABC! WLED Controller Board+Ethernet_Adapter](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/5badd444-1380-4cbf-84b7-a49c69877e37)
 
-cod.m Controller:
+Cod.m Controller:
 ![cod m Controller](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/9005e953-ae30-4981-bed4-0fb36a019257)
 
 Level Shifter:
