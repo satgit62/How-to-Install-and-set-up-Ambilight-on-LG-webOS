@@ -222,6 +222,50 @@ For a helpful calculation of the required power supply rating, cable cross-secti
 ![Power Calculater](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/0c84d678-f2cc-4fc1-b341-30941c44b030)
 
 
+PicCap (webos-hyperion) update:
+
+It has now been determined that PicCap provides the wrong algorithm for the color calculation for HyperHDR and thus the LED colors do not match the TV picture. 
+The data is captured using FMT_ABGR, which is actually ARGB. ABGRToARGB, now the bytes are actually BGR, ARGBToRGB24, which in turn is changed to get RGB again.
+
+Among other things, the new generation of devices was also taken into account and the so-called “libvtcapture_backend” was adapted.
+Among others also LX-SoCs like C1, C2, C3, G1,G2,G3 and A series.
+
+Download:
+
+https://github.com/webosbrew/hyperion-webos/actions/runs/8696624468
+https://github.com/webosbrew/hyperion-webos/pull/107
+
+Installation instructions:
+
+1. call up PicCap under Apps and stop the service.
+2. unzip the hyperion_webos_Release.zip and copy the content to /media/developer/apps/usr/palm/services/org.webosbrew.piccap.service/ on the TV. (Replace the hyperion-webos and the backends in the folder)
+3. restart the TV and run PicCap to get root. When this is done, you will see in the bottom right of the status bar whether the receiver is “connected” to the respective UI and video backends.
+
+Now you may have to reset the color and gamma settings you made before, as the color calculation is now correct. Depending on the type of LEDs used, readjust if necessary.
+
+You can check the actual hexadecimal color values in HyperHDR Live LED visualization with the browser, other tools, color pipette and check if they correspond to reality. Calculation from hexadecimal to decimal can be found in: https://www.farb-tabelle.de/de/farbtabelle.htm
+
+The color correction I achieved with it can be seen in the “EBU Color bars results”. This corresponds to 99.9 percent of reality!
+The file “EBU Color bars results” with the correct resolution Download: https://en.m.wikipedia.org/wiki/File:EBU_Colorbars_HD.svg#file
+
+![EBU Color bars color results](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/d25d733a-4a07-44d3-b02a-26959ef32895)
+
+![EBU_Colorbars_HD svg](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/a9f772ff-1be3-447c-a604-84451398d12e)
+
+![Farbpipette](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/690cd1fc-6c2d-4042-85c3-eed4bb1b3eed)
+
+![Led-Visualisierung Farbpipette](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/9315a837-9429-477e-9dd5-82035042fd76)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
