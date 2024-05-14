@@ -215,6 +215,13 @@ RP2040 LED-Controller:
 Important! For the RP2040 controller with HyperSerialPico, please look for the correct DATA line output. Depending on the type, with built-in level shifter or without, there are different GPIO assignments for DATA.
 The right place to go for the firmware is: https://github.com/awawa-dev/HyperSerialPico, https://github.com/awawa-dev/HyperSerialPico/releases and for the description of the compatible hardware and pin output is: https://github.com/awawa-dev/HyperHDR/discussions/561
 
+Power Supply:
+
+For a helpful calculation of the required power supply rating, cable cross-section, fuse and other parameters depending on the number and type of LEDs, you should definitely consult https://wled-calculator.github.io/.
+
+![Power Calculater](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/0c84d678-f2cc-4fc1-b341-30941c44b030)
+
+
 
 
 
