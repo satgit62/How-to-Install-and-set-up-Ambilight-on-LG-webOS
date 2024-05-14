@@ -221,15 +221,17 @@ For a helpful calculation of the required power supply rating, cable cross-secti
 
 ![Power Calculater](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/0c84d678-f2cc-4fc1-b341-30941c44b030)
 
+Important note!
 
 PicCap (webos-hyperion) update:
 
-It has now been determined that PicCap provides the wrong algorithm for the color calculation for HyperHDR and thus the LED colors do not match the TV picture. 
-The data is captured using FMT_ABGR, which is actually ARGB. ABGRToARGB, now the bytes are actually BGR, ARGBToRGB24, which in turn is changed to get RGB again.
+After a few years, it was discovered that PicCap provides the wrong algorithm for the color calculation for HyperHDR and therefore the LED colors do not match the TV picture. 
+The data is captured with FMT_ABGR, which is actually ARGB. ABGRToARGB, now the bytes are actually BGR, ARGBToRGB24, which in turn is changed to get RGB again.
 
-Among other things, the new generation of devices was also taken into account and the so-called “libvtcapture_backend” and older “libdile_vt_backend” were adapted.
+Among other things, the new generation of devices was also taken into account and the so-called “libvtcapture_backend” and the older “libdile_vt_backend” were adapted.
 Devices of the LX SoCs such as C1, C2, C3, G1, G2, G3 and A series.
 
+Because the PicCap developer is currently not active, you have to make the changes manually and update the backends under the “hyperion-webos” yourself. 
 Download:
 
 https://github.com/webosbrew/hyperion-webos/actions/runs/8696624468
