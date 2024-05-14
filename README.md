@@ -64,6 +64,11 @@ So I prefer here as controller type: udpraw, RGB byte order: RGB, update time 0,
 
 ![udp raw](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/77f1c58c-c5c2-47c8-bb57-6eda23c6328a)
 
+Controller Type wled:
+The controller type: wled also has an autodiscover function when you set the first time.
+
+![Controller type WLED](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/242735b1-4c10-454a-84c3-f0fcc2456088)
+
 HyperHDR LED Controller type settings for RP2040-USB controller with “HyperSerialPico” firmware:
 
 First, go to LED Hardware and select “adalight” under “Controller Type”.
