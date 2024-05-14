@@ -227,8 +227,8 @@ PicCap (webos-hyperion) update:
 It has now been determined that PicCap provides the wrong algorithm for the color calculation for HyperHDR and thus the LED colors do not match the TV picture. 
 The data is captured using FMT_ABGR, which is actually ARGB. ABGRToARGB, now the bytes are actually BGR, ARGBToRGB24, which in turn is changed to get RGB again.
 
-Among other things, the new generation of devices was also taken into account and the so-called “libvtcapture_backend” was adapted.
-Among others also LX-SoCs like C1, C2, C3, G1,G2,G3 and A series.
+Among other things, the new generation of devices was also taken into account and the so-called “libvtcapture_backend” and older “libdile_vt_backend” were adapted.
+Devices of the LX SoCs such as C1, C2, C3, G1, G2, G3 and A series.
 
 Download:
 
@@ -251,13 +251,11 @@ The file “EBU Color bars results” with the correct resolution Download: http
 
 ![EBU Color bars color results](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/d25d733a-4a07-44d3-b02a-26959ef32895)
 
-![EBU_Colorbars_HD svg](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/a9f772ff-1be3-447c-a604-84451398d12e)
+![EBU_Colorbars_HD svg](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/794d28a5-1e95-450e-8ed0-39e9ca3b23ba)
 
-![Farbpipette](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/690cd1fc-6c2d-4042-85c3-eed4bb1b3eed)
+![Farbpipette](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/27131ff3-4809-45d2-853f-c6b9dabf3dc9)
 
-![Led-Visualisierung Farbpipette](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/9315a837-9429-477e-9dd5-82035042fd76)
-
-
+![Led-Visualisierung_Farbpipette](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/8307f8a9-f39c-4cdf-8920-27c7d10f273f)
 
 
 
