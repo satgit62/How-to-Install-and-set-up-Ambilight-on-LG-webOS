@@ -234,6 +234,7 @@ Devices of the LX SoCs such as C1, C2, C3, G1, G2, G3 and A series.
 Because the PicCap developer is currently not active, you have to make the changes manually and update the backends under the “hyperion-webos” yourself. 
 Download:
 
+https://github.com/webosbrew/hyperion-webos/actions/runs/8696624468/artifacts/1416103528
 https://github.com/webosbrew/hyperion-webos/actions/runs/8696624468
 https://github.com/webosbrew/hyperion-webos/pull/107
 
