@@ -246,6 +246,7 @@ Now you may have to reset the color and gamma settings you made before, as the c
 You can check the actual hexadecimal color values in HyperHDR Live LED visualization with the browser, other tools, color pipette and check if they correspond to reality. Calculation from hexadecimal to decimal can be found in: https://www.farb-tabelle.de/de/farbtabelle.htm
 
 The color correction I achieved with it can be seen in the “EBU Color bars results”. This corresponds to 99.9 percent of reality!
+
 The file “EBU Color bars results” with the correct resolution Download: https://en.m.wikipedia.org/wiki/File:EBU_Colorbars_HD.svg#file
 
 ![EBU Color bars color results](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/d25d733a-4a07-44d3-b02a-26959ef32895)
