@@ -86,6 +86,13 @@ The white channel of the “Neutral RGBW” LEDs does not come close to the colo
 Other LED Controllers:
 
 I would like to mention at this point that there are several ESP controllers with HyperSerial drivers from awawa-dev in GitHub, which can be installed on both ESP8266 and ESP32. For details and separate settings, please see:  https://github.com/awawa-dev/HyperSerialEsp8266 and https://github.com/awawa-dev/HyperSerialESP32/
+Kompatibler HyperSerialPico-Controller:
+https://github.com/awawa-dev/HyperHDR/discussions/561
+Kompatibler WLED-Controller:
+https://kno.wled.ge/basics/compatible-controllers/
+
+
+
 
 LED Layout:
 
