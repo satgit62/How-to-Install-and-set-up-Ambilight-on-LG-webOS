@@ -155,6 +155,16 @@ WLED Log:
 
 ![WLED Logs](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/3c608c7f-685b-4dd5-8745-c70776dcb175)
 
+General Settings:
+
+In the General Settings menu "LED Hardware Instance Management", you can manage the instances. Use different LED hardware at the same time. Each instance runs independent of each other which allows different LED layouts and calibration settings. This is important if, for example, other hardware from other manufacturers such as Philips Hue lamps and Stripes or simply create a separate layout when using multi-segment LED controllers.
+
+Under “Import/export configuration” you can save your HyperHDR settings and restore them as required.
+
+The log level debug can be set under the “Logging” menu.
+
+![General settings](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/3441e160-91d8-4275-b736-356acdd6b109)
+
 Important note when using ESP32 Controller:
 
 When using ESP32 LED controller with WLED firmware, it is necessary to make further settings under WLED depending on the LED type, RGB or RGBW used. For example, when using four channel LEDs such as SK6812RGBW. 
