@@ -276,11 +276,6 @@ The file “EBU Color bars results” with the correct resolution Download: http
 
 
 
-Kompatibler WLED-Controller:
-https://kno.wled.ge/basics/compatible-controllers/
-
-Kompatibler HyperSerialPico-Controller:
-https://github.com/awawa-dev/HyperHDR/discussions/561
 
 
 
