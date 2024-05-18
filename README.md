@@ -165,7 +165,6 @@ WLED Log:
 General Settings:
 
 You can manage the instances in the “LED hardware instance management” general settings menu. Use different LED hardware at the same time. Each instance runs independently of the other, which enables different LED layouts and calibration settings. This is important if, for example, you are using hardware from other manufacturers, such as Philips Hue lamps and Stripes. 
-It is also significant if you are using the second instance for a separate layout when using a second segment with a suitable LED controller that supports multi-segmental.
 
 Under “Import/export configuration” you can save your HyperHDR settings and restore them as required.
 
