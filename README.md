@@ -69,7 +69,7 @@ The controller type: wled also has an autodiscover function when you set the fir
 
 ![Controller type WLED](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/242735b1-4c10-454a-84c3-f0fcc2456088)
 
-HyperHDR LED Controller type settings for RP2040-USB controller with “HyperSerialPico” firmware:
+HyperHDR LED controller type settings for RP2040-USB controller with “HyperSerialPico” or “HyperSerial” ESP32 Generic/S2 Mini firmware:
 
 First, go to LED Hardware and select “adalight” under “Controller Type”.
 Select your RP2040 device under “Output path”. For example, ttyACM0. 
