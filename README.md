@@ -210,6 +210,16 @@ For those who do not use a ready-made LED controller with a built-in level shift
 
 Example Connection of various LED controllers:
 
+Install HyperSerialPico firmware on controller:
+Unzip the firmware folder. (https://github.com/awawa-dev/HyperSerialPico/releases/) Take the appropriate file for your LED strip and transfer it to the controller in DFU mode.
+ 
+1. Put your Pico board into DFU mode:
+
+  If your Pico board has only one button (boot) then press & hold it and connect the board to the USB port. Then you can release the button.
+  If your Pico board has two buttons, connect it to the USB port. Then press & hold boot and reset buttons, then release reset and next release boot button.
+
+2. In the system file explorer you should find new drive (e.g. called RPI-RP2 drive) exposed by the Pico board. Drag & drop (or copy) the selected firmware to this drive. The Pico will reset automaticly after the upload and after few seconds it will be ready to use by HyperHDR as a serial port device using Adalight driver.
+
 Adafruit ItsyBitsy RP2040 using GPIO14(OUTPUT_DATA_PIN) on output 5.
 
 ![Ambilight Adafruit ItsyBitsy](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/76f4c91f-6420-4157-9b0f-7efdc4396b12)
