@@ -210,6 +210,13 @@ For those who do not use a ready-made LED controller with a built-in level shift
 
 Example Connection of various LED controllers:
 
+Adafruit ItsyBitsy RP2040 using GPIO14(OUTPUT_DATA_PIN) on output 5.
+
+![Ambilight Adafruit ItsyBitsy](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/76f4c91f-6420-4157-9b0f-7efdc4396b12)
+
+![ItsyBitsy RP2040](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/8a70a8f3-c196-4e63-9925-8fd1e48caf9c)
+
+
 RP2040 Adalight Feather Scorpio mit Level Shifter Ausgang GPIO 16.
 
 ![LED 4 Seitige Aufbau HyperSerialPico](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/70693991-ed28-4208-94d0-e0c9541de007)
