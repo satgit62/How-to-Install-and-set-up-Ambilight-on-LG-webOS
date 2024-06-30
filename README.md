@@ -259,7 +259,10 @@ For the flash process, you must connect the TX from TTL to USB adapter with the 
 
 ![ESP32 LAN WTH0](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/b7c9fcc4-c95c-4eeb-bf31-84c83ac56626)
 
-WLED Ethernet setup
+For the flash process with WLED, please use the online flash at: https://install.wled.me/
+![WLED Installer](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/dae9a498-e149-4c33-89ca-ef9df9995ebc)
+
+WLED Ethernet setup:
 Go to "Config" and then to "WiFi Setup". At the bottom of this page select the Ethernet type you use. (WT32-ETH01) Then click on "Save & Connect".
 
 ![WiFi Setup](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/bc7f0104-ea8e-4884-b37a-d9cb8f218db5)
