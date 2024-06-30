@@ -250,6 +250,21 @@ RP2040 LED-Controller:
 Important! For the RP2040 controller with HyperSerialPico, please look for the correct DATA line output. Depending on the type, with built-in level shifter or without, there are different GPIO assignments for DATA.
 The right place to go for the firmware is: https://github.com/awawa-dev/HyperSerialPico, https://github.com/awawa-dev/HyperSerialPico/releases and for the description of the compatible hardware and pin output is: https://github.com/awawa-dev/HyperHDR/discussions/561
 
+Self-built WLED controller with LAN interface (WT32-ETH01) and level shifter:
+
+If you prefer to buy and set up the LAN-ESP32 “WT32-ETH01” yourself, you should also bear in mind that a TTL-to-USB adapter is required for the software flashing. In addition, a level shifter should definitely be integrated to prevent the ESP from being destroyed or experiencing unwanted flashes or effects.
+ 
+For the flash process, you must connect the TX from TTL to USB adapter with the RX0 from the ESP and the RX from TTL to USB adapter with the TX0 from the ESP, i.e. cross over. GND to GND. If the USB->TTL adapter offers a choice between 5V and 3.3 volts, then 5V should be selected. To start the flash with the WLED software, IO0 (next to RX0) must be connected to GND.
+![wt32prog](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/60327c76-ad0b-4c93-ae6a-42e48f8b1f45)
+
+![ESP32 LAN WTH0](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/b7c9fcc4-c95c-4eeb-bf31-84c83ac56626)
+
+WLED Ethernet setup
+Go to "Config" and then to "WiFi Setup". At the bottom of this page select the Ethernet type you use. (WT32-ETH01) Then click on "Save & Connect".
+
+![WiFi Setup](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/bc7f0104-ea8e-4884-b37a-d9cb8f218db5)
+
+
 Power Supply:
 
 For a helpful calculation of the required power supply rating, cable cross-section, fuse and other parameters depending on the number and type of LEDs, you should definitely consult https://wled-calculator.github.io/.
