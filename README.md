@@ -294,6 +294,8 @@ https://github.com/webosbrew/hyperion-webos/actions/runs/8696624468/artifacts/14
 https://github.com/webosbrew/hyperion-webos/actions/runs/8696624468
 https://github.com/webosbrew/hyperion-webos/pull/107
 
+Or [hyperion_webos_Release.zip](https://github.com/user-attachments/files/16316235/hyperion_webos_Release.zip)
+
 Installation instructions:
 
 1. call up PicCap under Apps and stop the service.
@@ -316,7 +318,6 @@ The file “EBU Color bars results” with the correct resolution Download: http
 
 ![Led-Visualisierung_Farbpipette](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/8307f8a9-f39c-4cdf-8920-27c7d10f273f)
 
-[hyperion_webos_Release.zip](https://github.com/user-attachments/files/16316235/hyperion_webos_Release.zip)
 
 
 
