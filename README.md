@@ -227,6 +227,27 @@ For devices larger than 65 inch televisions, a third power injection for the LED
 
 ![ItsyBitsy RP2040](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/8a70a8f3-c196-4e63-9925-8fd1e48caf9c)
 
+PLASMA 2040
+
+If you use SK6812 with only one segment, you only need DATA. If you are using two segments, you must also use CLK. The firmware (HyperSerialPico) must be compiled correctly for this.
+
+For ws281x/sk6812 LED strips:
+
+Compile with set(OUTPUT_DATA_PIN 15) for data line if single LED segment is used.
+Output is DA connector.
+Compile with set(OUTPUT_DATA_PIN 14) for data line if two LED segments are used.
+Output is: CL (first segment) and DA (second segment) connector.
+
+For SPI LED strips, spi1 interface must be used:
+
+set(OUTPUT_SPI_DATA_PIN 15)  
+set(OUTPUT_SPI_CLOCK_PIN 14)  
+set(SPI_INTERFACE spi1)
+
+Output is: CL (clock) and DA (data) connector.
+![Plasma2040](https://github.com/user-attachments/assets/1ea38359-e95c-468f-a58a-872f4550cc53)
+
+
 RP2040 Adalight Feather Scorpio mit Level Shifter Ausgang GPIO 16.
 For devices larger than 65 inch televisions, a third power injection for the LEDs in the center is required.
 
