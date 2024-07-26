@@ -7,7 +7,10 @@ Prerequisite for Ambilight is an LG TV device that is successfully rooted and in
 Attention! PicCap is not able to record DRM-protected video content from TVs' own apps. However, the DRM restrictions do not affect the TV's HDMI inputs, so NETFLIX & Co. can be processed and enjoyed with Ambilight.
 
 
-After a successful rooting with one of the known methods (Enabling debug on LG webOS by modifying NVM, RootMyTV, crashd, or DejaVuln) PicCap (hyperion-webos) and the mostly used Hyperion or HyperHDR, LEDs control/processing software from Homebrew Channel must be installed and configured. 
+After a successful rooting with one of the known methods (Enabling debug on LG webOS by modifying NVM, RootMyTV, crashd, or DejaVuln) PicCap (hyperion-webos) and the mostly used HyperHDR or Hyperion, LEDs control/processing software from Homebrew Channel must be installed and configured. 
+
+Note:
+The settings for Hyperion.NG users are similar to HyperHDR, with the difference that there is no “HDR to SDR tone mapping” in Hyperion. To achieve some functions in contrast to HyperHDR, the setting level in Hyperion must be set to Expert.
 
 First, you should pay attention to the following points in Homebrew Channel: 
 1. switch off unprotected and vulnerable Telnet.
