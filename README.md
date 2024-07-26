@@ -109,6 +109,15 @@ In the next step, we turn to the menu effects (effects) and ensure that the boat
 
 ![Effects](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/af77184a-ac00-445f-9d36-f4e0a32322d9)
 
+The next step is only important for HyperHDR users! (This function is not available in Hyperion.NG)
+
+# HDR to SDR tone mapping
+
+For the correct HDR global detection function, the “HDR to SDR tone mapping” option must be activated under Network Services, Flatbuffer Server.
+
+![HDR to SDR tone mapping](https://github.com/user-attachments/assets/0fe30f83-9228-4f1a-abc3-6cb77efd288c)
+
+
 # Image Processing
 
 Under image processing, you have the choice between “Classic HyperHDR calibration” and not “Classic HyperHDR calibration”.
