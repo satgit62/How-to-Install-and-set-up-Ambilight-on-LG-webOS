@@ -245,11 +245,14 @@ set(OUTPUT_SPI_CLOCK_PIN 14)
 set(SPI_INTERFACE spi1)
 
 Output is: CL (clock) and DA (data) connector.
+
 ![Plasma2040](https://github.com/user-attachments/assets/1ea38359-e95c-468f-a58a-872f4550cc53)
 
 
 RP2040 Adalight Feather Scorpio mit Level Shifter Ausgang GPIO 16.
 For devices larger than 65 inch televisions, a third power injection for the LEDs in the center is required.
+
+![Adafruit Feather RP2040 Scorpio1](https://github.com/user-attachments/assets/e640cb4e-0a4d-4ca1-982f-61f3e77e1066)
 
 ![LED 4 Seitige Aufbau HyperSerialPico](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/70693991-ed28-4208-94d0-e0c9541de007)
 ![Adafruit Feather Scorpio Pinout](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/8d661a6d-1521-48a4-83e0-5c4e370307b1)
