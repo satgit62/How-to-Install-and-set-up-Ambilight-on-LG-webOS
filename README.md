@@ -97,6 +97,11 @@ The white channel of the “Neutral RGBW” LEDs does not come close to the colo
 # Other LED Controllers
 
 I would like to mention at this point that there are several ESP controllers with HyperSerial drivers from awawa-dev in GitHub, which can be installed on both ESP8266 and ESP32. For details and separate settings, please see:  https://github.com/awawa-dev/HyperSerialEsp8266 and https://github.com/awawa-dev/HyperSerialESP32/
+
+Attention! There are also ESP32 with CH341 or CP210x which allow higher data rates via HyperSerial, but the kernel driver is not included in LG firmware.
+So you have to install it on the device first, depending on the kernel architecture.
+Download and instructions can be found at: https://github.com/throwaway96/webos-kernel-drivers
+
 Kompatibler HyperSerialPico-Controller:
 https://github.com/awawa-dev/HyperHDR/discussions/561
 Kompatibler WLED-Controller:
