@@ -321,6 +321,10 @@ Go to "Config" and then to "WiFi Setup". At the bottom of this page select the E
 
 # Power Supply
 
+Example of power supply units that can be used:
+Switching power supply “MEAN WELL Well 1439455 LRS-75-5 AC power supply Module” (Please note that a 3-pole mains connection cable is also required here) or closed switching power supply “5V Power Supply 5 Volt 15A 75W Adapter 100V~240V AC to DC Converter 5 Vdc 15 Amp Power Transformer for LED Pixel Strip Light”
+“ALITOVE Netzteil 5V 15A Universal Adapter 5 Volt Netzteil 75W” and the screw-on adapter to match “Female And Male DC Connectors 2.5×5.5 mm Power Plug Adapter Jacks Sockets Connector For Signal Color LED Strip CCTV Camera”
+
 For a helpful calculation of the required power supply rating, cable cross-section, fuse and other parameters depending on the number and type of LEDs, you should definitely consult https://wled-calculator.github.io/.
 
 ![Power Calculater](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/0c84d678-f2cc-4fc1-b341-30941c44b030)
