@@ -245,14 +245,14 @@ Unzip the firmware folder. (https://github.com/awawa-dev/HyperSerialPico/release
 
 2. In the system file explorer you should find new drive (e.g. called RPI-RP2 drive) exposed by the Pico board. Drag & drop (or copy) the selected firmware to this drive. The Pico will reset automaticly after the upload and after few seconds it will be ready to use by HyperHDR as a serial port device using Adalight driver.
 
-Adafruit ItsyBitsy RP2040 using GPIO14(OUTPUT_DATA_PIN) on output 5.
+# Adafruit ItsyBitsy RP2040 using GPIO14(OUTPUT_DATA_PIN) on output 5.
 For devices larger than 65 inch televisions, a third power injection for the LEDs in the center is required.
 
 ![Ambilight Adafruit ItsyBitsy](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/76f4c91f-6420-4157-9b0f-7efdc4396b12)
 
 ![ItsyBitsy RP2040](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/8a70a8f3-c196-4e63-9925-8fd1e48caf9c)
 
-PLASMA 2040
+# PLASMA 2040
 
 If you use SK6812 with only one segment, you only need DATA. If you are using two segments, you must also use CLK. The firmware (HyperSerialPico) must be compiled correctly for this.
 
@@ -274,7 +274,7 @@ Output is: CL (clock) and DA (data) connector.
 ![Plasma2040](https://github.com/user-attachments/assets/1ea38359-e95c-468f-a58a-872f4550cc53)
 
 
-RP2040 Adalight Feather Scorpio mit Level Shifter Ausgang GPIO 16.
+# RP2040 Adalight Feather Scorpio mit Level Shifter Ausgang GPIO 16.
 For devices larger than 65 inch televisions, a third power injection for the LEDs in the center is required.
 
 ![Adafruit Feather RP2040 Scorpio1](https://github.com/user-attachments/assets/e640cb4e-0a4d-4ca1-982f-61f3e77e1066)
@@ -282,11 +282,11 @@ For devices larger than 65 inch televisions, a third power injection for the LED
 ![LED 4 Seitige Aufbau HyperSerialPico](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/70693991-ed28-4208-94d0-e0c9541de007)
 ![Adafruit Feather Scorpio Pinout](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/8d661a6d-1521-48a4-83e0-5c4e370307b1)
 
-ABC! WLED Controller ESP32:
+# ABC! WLED Controller ESP32:
 
 ![ABC! WLED Controller V41 ESP32](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/3d5f4588-11ac-408b-a0aa-060fcb1f2417)
 
-ESP 8266 Wemos D1 Mini with level shifter:
+# ESP 8266 Wemos D1 Mini with level shifter:
 
 ![Level Shifter](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/179cb14f-6244-40e7-987e-8d7b2d589d50)
 
@@ -296,12 +296,12 @@ ESP 8266 Wemos D1 Mini with level shifter:
 
 ![WLED+Netztteil und Level Shifter](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/591438fb-5e3d-4086-bf6a-c1018d293832)
 
-RP2040 LED-Controller:
+# RP2040 LED-Controller:
 
 Important! For the RP2040 controller with HyperSerialPico, please look for the correct DATA line output. Depending on the type, with built-in level shifter or without, there are different GPIO assignments for DATA.
 The right place to go for the firmware is: https://github.com/awawa-dev/HyperSerialPico, https://github.com/awawa-dev/HyperSerialPico/releases and for the description of the compatible hardware and pin output is: https://github.com/awawa-dev/HyperHDR/discussions/561
 
-Self-built WLED controller with LAN interface (WT32-ETH01) and level shifter:
+# ESP32 Self-built WLED controller with LAN interface (WT32-ETH01) and level shifter:
 
 If you prefer to buy and set up the LAN-ESP32 “WT32-ETH01” yourself, you should also bear in mind that a TTL-to-USB adapter is required for the software flashing. In addition, a level shifter should definitely be integrated to prevent the ESP from being destroyed or experiencing unwanted flashes or effects.
  
