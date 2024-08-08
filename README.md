@@ -23,9 +23,10 @@ First, you should pay attention to the following points in Homebrew Channel:
 # PicCap
 
 Install PicCap from Homebrew Channel and restart.
+
 As an alternative to the direct installation from Homebrew Channels, the webOS Device Manager from GitHub can also be used for the installation. 
 See: https://github.com/webosbrew/dev-manager-desktop
-Important! Under Add Device Connection Mode, select Use SSH Server by Homebrew Channel. (Username for this = root and password = alpine)
+Important! Under Add Device Connection Mode, select Use SSH Server by Homebrew Channel. (IP address of your television, port=22, Username for this = root and password = alpine) Username for this = root and password = alpine)
 
 ![webOS Device Manager Connection Mode](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/38aac118-389d-4234-87d3-d2aad02f84b4)
 
