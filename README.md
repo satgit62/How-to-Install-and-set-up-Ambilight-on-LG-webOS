@@ -66,8 +66,11 @@ Once the HyperHDR daemon service is successfully started, open a browser of your
 
 HyperHDR LED Controller type settings for ESP32 controller with “WLED” firmware:
 
-First go to LED hardware and make the settings under LED controller. 
-You can choose WLED under LED-controller, but some bugs speak against it.
+First go to LED hardware and make the settings under LED controller.
+
+# Controller udpraw Protocol for WLED
+
+You can select WLED under LED controller, but in conjunction with some ESP versions, the LEDs were not switched off when the TV was switched off. 
 So I prefer here as controller type: udpraw, RGB byte order: RGB, update time 0, target IP: IP address of your ESP/WLED and port: 19446.
 
 ![udp raw](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/77f1c58c-c5c2-47c8-bb57-6eda23c6328a)
