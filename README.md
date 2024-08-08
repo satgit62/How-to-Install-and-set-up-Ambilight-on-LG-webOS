@@ -284,6 +284,8 @@ ESP 8266 Wemos D1 Mini with level shifter:
 
 ESP32 with level shifter:
 
+![ESP32 S2 Mini Lolin](https://github.com/user-attachments/assets/ccad4b26-c770-44cd-92d3-ec945ca9e380)
+
 ![WLED+Netztteil und Level Shifter](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/591438fb-5e3d-4086-bf6a-c1018d293832)
 
 RP2040 LED-Controller:
