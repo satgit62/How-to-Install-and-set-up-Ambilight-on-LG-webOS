@@ -49,7 +49,12 @@ Under Advanced Settings, you may need to set the correct QUIRK. See: https://git
 
 ![PicCap advanced settings](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/20f1dc05-f15a-4c72-b1d4-6779967e5176)
 
-# HyperHDR
+# HyperHDR/Hyperion.NG
+
+HyperHDR is a variant of Hyperion. To realize Ambilight on LG TVs, you need either Hyperion.NG or HyperHDR in addition to PicCap. Both Hyperion versions are similar in structure and operation and have different features. And as always, there are advantages and disadvantages. It also depends on which LED controller you want to use. If you want to use LED controllers such as HyperSerial, HyperSerialPico on RP2040 or HyperSerial with WLED on ESP32 and attach importance to HDR content, you should use HyperHDR. For LED controllers with pure WLED firmware on ESP32, you can use Hyperion.NG.
+Hardware support for LED lighting is also important. Both solutions support most common RGB/W LEDs. However, since there are also exotic RGB lighting, you can find out more in advance on the GitHub page.
+HyperHDR: https://github.com/awawa-dev/HyperHDR
+Hyperion.NG: https://github.com/hyperion-project/hyperion.ng
 
 Install and start HyperHDR or Hyperion.NG via the Homebrew Channel or using the webOS Device Manager. 
 Switch on Autostart and start the daemon service. Reboot the TV.
