@@ -28,7 +28,7 @@ Install PicCap from Homebrew Channel and restart.
 
 As an alternative to the direct installation from Homebrew Channels, the webOS Device Manager from GitHub can also be used for the installation. 
 See: https://github.com/webosbrew/dev-manager-desktop
-Important! Under Add Device Connection Mode, select Use SSH Server by Homebrew Channel. (IP address of your television, port=22, Username for this = root and password = alpine) Username for this = root and password = alpine)
+Important! Under Add Device Connection Mode, select Use SSH Server by Homebrew Channel. (IP address of your LG television, port = 22, Username for this = root and password = alpine) Username for this = root and password = alpine)
 Not to be confused with the developer mode app.
 Please do not install a developer mode app on a rooted device. 
 
