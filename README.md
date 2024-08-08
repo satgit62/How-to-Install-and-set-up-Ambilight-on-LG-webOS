@@ -290,7 +290,7 @@ ESP 8266 Wemos D1 Mini with level shifter:
 
 ![Level Shifter](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/179cb14f-6244-40e7-987e-8d7b2d589d50)
 
-ESP32 with level shifter:
+# ESP32 with level shifter:
 
 ![ESP32 S2 Mini Lolin](https://github.com/user-attachments/assets/ccad4b26-c770-44cd-92d3-ec945ca9e380)
 
