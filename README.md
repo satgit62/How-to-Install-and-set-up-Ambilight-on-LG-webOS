@@ -250,14 +250,14 @@ Unzip the firmware folder. (https://github.com/awawa-dev/HyperSerialPico/release
 
 2. In the system file explorer you should find new drive (e.g. called RPI-RP2 drive) exposed by the Pico board. Drag & drop (or copy) the selected firmware to this drive. The Pico will reset automaticly after the upload and after few seconds it will be ready to use by HyperHDR as a serial port device using Adalight driver.
 
-# Adafruit ItsyBitsy RP2040 using GPIO14(OUTPUT_DATA_PIN) on output 5.
+# Adafruit ItsyBitsy RP2040  mit Level Shifter using GPIO14(OUTPUT_DATA_PIN) on output 5.
 For devices larger than 65 inch televisions, a third power injection for the LEDs in the center is required.
 
 ![Ambilight Adafruit ItsyBitsy](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/76f4c91f-6420-4157-9b0f-7efdc4396b12)
 
 ![ItsyBitsy RP2040](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/8a70a8f3-c196-4e63-9925-8fd1e48caf9c)
 
-# PLASMA 2040
+# PLASMA 2040 mit Level Shifter
 
 If you use SK6812 with only one segment, you only need DATA. If you are using two segments, you must also use CLK. The firmware (HyperSerialPico) must be compiled correctly for this.
 
