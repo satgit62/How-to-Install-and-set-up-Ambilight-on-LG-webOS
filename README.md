@@ -225,6 +225,8 @@ Just google:
 ![quinled-dig-uno-v3-digital-led-controller](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/66fc94af-7ecf-4a95-aca9-0390492be823)
 ![UNO V3](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/4a7c293d-b0b8-4895-93e8-e56d52f9c32f)
 
+![QuinLED Dig Uno v3 DIGITAL LED controller](https://github.com/user-attachments/assets/d4f27dc0-1a5d-48d1-ae05-02af5c73de28)
+
 # ABC! WLED Controller Board+Ethernet_Adapter
 
 ![ABC! WLED Controller Board+Ethernet_Adapter](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/5badd444-1380-4cbf-84b7-a49c69877e37)
