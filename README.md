@@ -231,6 +231,10 @@ Just google:
 
 ![ABC! WLED Controller Board+Ethernet_Adapter](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/5badd444-1380-4cbf-84b7-a49c69877e37)
 
+# ABC! WLED Controller ESP32:
+
+![ABC! WLED Controller V41 ESP32](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/3d5f4588-11ac-408b-a0aa-060fcb1f2417)
+
 # Cod.m Controller:
 ![cod m Controller](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/9005e953-ae30-4981-bed4-0fb36a019257)
 
@@ -288,10 +292,6 @@ For devices larger than 65 inch televisions, a third power injection for the LED
 
 ![LED 4 Seitige Aufbau HyperSerialPico](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/70693991-ed28-4208-94d0-e0c9541de007)
 ![Adafruit Feather Scorpio Pinout](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/8d661a6d-1521-48a4-83e0-5c4e370307b1)
-
-# ABC! WLED Controller ESP32:
-
-![ABC! WLED Controller V41 ESP32](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/3d5f4588-11ac-408b-a0aa-060fcb1f2417)
 
 # ESP 8266 Wemos D1 Mini with level shifter:
 
