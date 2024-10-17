@@ -12,7 +12,7 @@ After a successful rooting with one of the known methods (Enabling debug on LG w
 Note:
 The settings for Hyperion.NG users are similar to HyperHDR, with the difference that there is no “HDR to SDR tone mapping” in Hyperion. To achieve some functions in contrast to HyperHDR, the setting level in Hyperion must be set to Expert.
 
-First, you should pay attention to the following points in Homebrew Channel: 
+# Homebrew Channel settings:
 1. switch off unprotected and vulnerable Telnet.
 2. switch on SSH. (Username for this = root and password = alpine) 
 3. switch on Block System Updates
