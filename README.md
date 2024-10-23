@@ -352,11 +352,7 @@ Thanks to @sundermann for the new backend.
 
 Download:
 
-https://github.com/webosbrew/hyperion-webos/actions/runs/8696624468/artifacts/1416103528
-https://github.com/webosbrew/hyperion-webos/actions/runs/8696624468
-https://github.com/webosbrew/hyperion-webos/pull/107
-
-Or [hyperion_webos_Release.zip](https://github.com/user-attachments/files/16316235/hyperion_webos_Release.zip)
+[hyperion_webos_Release.zip](https://github.com/user-attachments/files/16316235/hyperion_webos_Release.zip)
 
 Installation instructions:
 
