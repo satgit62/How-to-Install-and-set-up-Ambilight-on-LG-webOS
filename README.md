@@ -114,7 +114,6 @@ https://kno.wled.ge/basics/compatible-controllers/
 
 
 
-
 # LED Layout
 
 In the second step, we go to LED layout.
@@ -123,6 +122,29 @@ It is also possible to create a three-sided Ambilight, or a four-sided one with 
 On my devices, I glued the LEDs from the front, bottom left and followed the clockwise direction so that the end of the LED stripe stopped in proximity to the beginning of the LED stripe. Thus, I could feed power to both the beginning and end of the LEDs with only a single AWG 18 silicone two-conductor wire from the power supply.
 
 ![HyperHDR Classic Layout](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/bcdc1c0f-71ff-4d22-b774-0a78e1f7ad29)
+
+# Layout advanced Settings
+
+* define how deep horizontally and vertically the image content is to be scanned/considered and transferred to the LEDs. (Horizontal/Vertical LED depth)
+
+![Layout Advanced Settings](https://github.com/user-attachments/assets/8ad09184-1e4f-448b-a5e6-84ffb9b5f416)
+
+  
+* Specify whether there are gaps in the corners (Edge Gap/ Missing LEDs)
+
+![Layout Advanced Settings Edge Gap ](https://github.com/user-attachments/assets/6c33b0e4-2a84-4c16-872f-fb4619e6ef07)
+
+
+* Specify whether the LED strip overlaps in the corners (Overlap)
+
+![Layout Advanced Settings Overlap](https://github.com/user-attachments/assets/050b0547-d7f2-49d6-92de-c43fafe2183a)
+
+
+* Specify whether the LED strip has not been laid straight and parallel to each other. (Point Top Left, Point Top Right, Point Bottom Right and Point Bottom Left)
+
+![Layout Advanced Settings Point](https://github.com/user-attachments/assets/7186b6c6-8b62-49a1-98fa-4e66c9e94e78)
+
+The actual position of the LEDs is determined by these layout specifications. 
 
 # Effects
 
