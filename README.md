@@ -123,7 +123,9 @@ On my devices, I glued the LEDs from the front, bottom left and followed the clo
 
 ![HyperHDR Classic Layout](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/bcdc1c0f-71ff-4d22-b774-0a78e1f7ad29)
 
+
 # Layout advanced Settings
+The settings are important for:
 
 * define how deep horizontally and vertically the image content is to be scanned/considered and transferred to the LEDs. (Horizontal/Vertical LED depth)
 
