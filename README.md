@@ -391,7 +391,7 @@ Download:
 Installation instructions:
 
 1. call up PicCap under Apps and stop the service.
-2. unzip the hyperion_webos_Release.zip and copy the content to /media/developer/apps/usr/palm/services/org.webosbrew.piccap.service/ on the TV. (Replace the hyperion-webos and the backends in the folder)
+2. unzip the hyperion_webos_Release.zip and copy the content to `/media/developer/apps/usr/palm/services/org.webosbrew.piccap.service/` on the TV. (Replace the hyperion-webos and the backends in the folder)
 3. restart the TV and run PicCap to get root. When this is done, you will see in the bottom right of the status bar whether the receiver is “connected” to the respective UI and video backends.
 
 Now you may have to reset the color and gamma settings you made before, as the color calculation is now correct. Depending on the type of LEDs used, readjust if necessary.
