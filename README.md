@@ -374,6 +374,16 @@ Because the PicCap developer is currently not active, you have to make the chang
 
 Thanks to @sundermann for the new backend.
 
+Note:
+To exchange/replace the backend files, you can use both the webOS Dev Manager and FileZilla. See pictures.
+
+![webOS Dev Manager](https://github.com/user-attachments/assets/a9139a0c-3723-4a8c-94bd-7b3ce4166ea2)
+
+![webOS Dev Manager Backends](https://github.com/user-attachments/assets/1bc2a1bb-cf7f-4f8e-93bd-87377376e734)
+
+![FileZilla](https://github.com/user-attachments/assets/dc9135c6-178c-4c63-8ffc-d4490ae1dee1)
+
+
 Download:
 
 [hyperion_webos_Release.zip](https://github.com/user-attachments/files/16316235/hyperion_webos_Release.zip)
