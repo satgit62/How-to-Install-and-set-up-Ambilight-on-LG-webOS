@@ -374,7 +374,7 @@ Because the PicCap developer is currently not active, you have to make the chang
 
 Thanks to @sundermann for the new backend.
 
-Note:
+# Note:
 To exchange/replace the backend files, you can use both the webOS Dev Manager and FileZilla. See pictures.
 
 ![webOS Dev Manager](https://github.com/user-attachments/assets/a9139a0c-3723-4a8c-94bd-7b3ce4166ea2)
