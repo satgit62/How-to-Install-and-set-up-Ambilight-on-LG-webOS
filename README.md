@@ -195,10 +195,20 @@ If you want to watch DRM-protected content such as NETFLIX, Disney & Co., you mu
 
 # Remote Control
 
-Under HyperHDR/Hyperion remote control menu, you could monitor all processes and see whether data from PicCap is arriving at the HyperHDR “Flatbuffers” under source selection. There you can also switch HDR Global on or off if required. However, HyperHDR recognizes when a source provides HDR content and switches HDR Global on automatically and switches it off again for SD video sources.
+Under HyperHDR/Hyperion remote control menu, you could monitor all processes and see whether data from PicCap is arriving at the HyperHDR “Flatbuffers” under source selection. Smoothing and black bar detection can also be switched on and off.
 Under LED device, the LEDs can be switched off and on as required.
 
+Note: the following only applies to HyperHDR.
+
+There you can also switch HDR Global on or off if required. However, HyperHDR recognizes when a source provides HDR content and switches HDR Global on automatically and switches it off again for SD video sources.
+
+The automatic activation/deactivation of the HDR Global switch, provided that “HDR to SDR tone mapping” is selected under Network Services, Flatbuffer, only applies when using a single LUT table. With multiple LUTs the tone mapping must always be on.
+
+HyperHDR:
 ![HyperHDR Remote Control](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/cc5cc695-3846-4cf5-9b3a-c528c5860451)
+
+Hyperion.NG:
+![Remote Control Hyperion](https://github.com/user-attachments/assets/2d63ae73-8924-4fa2-948c-e17154808f03)
 
 # Logs
 
