@@ -56,8 +56,8 @@ Under Advanced Settings, you may need to set the correct QUIRK. See: https://git
 
 # HyperHDR/Hyperion.NG
 
-HyperHDR is a fork of Hyperion. To realize Ambilight on LG TVs, you need either Hyperion.NG or HyperHDR in addition to PicCap. Both Hyperion versions are similar in structure and operation, and each has its own special functions. And as always, there are advantages and disadvantages. It also depends on which LED controller you want to use. If you want to use LED controllers such as HyperSerial, HyperSerialPico on RP2040 or HyperSerial with WLED on ESP32 and attach importance to HDR content, you should use HyperHDR. For LED controllers with pure WLED firmware on ESP32, you can use Hyperion.NG.
-Hardware support for LED lighting is also important. Both solutions support most common RGB/W LEDs. However, since there are also exotic RGB lighting, you can find out more in advance on the GitHub page.
+HyperHDR is a fork of Hyperion. To realize Ambilight on LG TVs, you need either Hyperion.NG or HyperHDR in addition to PicCap. Both Hyperion versions are similar in structure and operation, and each has its own special functions. And as always, there are advantages and disadvantages. It also depends on which LED controller you want to use. If you want to use LED controllers such as HyperSerial, HyperSerialPico on RP2040 or HyperSerial with WLED on ESP32 and attach importance to HDR content, you should use HyperHDR. For LED controllers with WLED firmware on ESP32, you can use Hyperion.NG. Hyperion.NG has the advantage over Hyperion.HDR because it supports more controllers and can also control all Smart RGB luminaires/lamp registered in Home Assistant. Both solutions support most common RGB/W LEDs. However, since there are also exotic RGB lighting, you can find out more in advance on the GitHub page.
+
 HyperHDR: https://github.com/awawa-dev/HyperHDR
 Hyperion.NG: https://github.com/hyperion-project/hyperion.ng
 
