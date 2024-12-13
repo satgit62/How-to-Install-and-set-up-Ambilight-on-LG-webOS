@@ -236,9 +236,20 @@ The log level debug can be set under the “Logging” menu.
 
 ![General settings](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/3441e160-91d8-4275-b736-356acdd6b109)
 
-# Important note when using ESP32 Controller
+# Important note when using WLED/ESP32 Controller
 
-When using ESP32 LED controller with WLED firmware, it is necessary to make further settings under WLED depending on the LED type, RGB or RGBW used. For example, when using four channel LEDs such as SK6812RGBW. 
+WLED has limited its automatic brightness limiter to 850mA in the LED standard setting for safety reasons.
+
+If your power supply and cabling match the current requirements of your LED type and number, you must deactivate the automatic brightness limiter or adjust your power supply accordingly. Otherwise, your LEDs will have little or no luminosity.
+For example: Your power supply delivers max 5V 10 Ampere so you can limit to 9000 mA.
+
+![WLED Automatic brightness limiter](https://github.com/user-attachments/assets/10c37f38-9470-4851-b90a-e7accfd17fe7)
+
+If you also want to have the maximum brightness when switching on, you must set the default brightness under LED settings. 0 = off, 255 = max. brightness.
+
+![WLED default brightness](https://github.com/user-attachments/assets/6df54dc1-8bc8-4417-989a-692136fe80d4)
+
+It is also important to make further settings depending on the LED type used, RGB or RGBW. For example, when using four-channel LEDs such as SK6812 RGBW instead of three-channel RGB LEDs such as the WS2812b. 
 In the LED settings under “White management”--> “White Balance correction”, under “Calculate white channel automatically from RGB”, select “Dual” to actually use the white channel of the LEDs.
 
 ![WLED Withe Balance](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/e669d876-a8e2-4dec-9dc1-7675877c46ff)
