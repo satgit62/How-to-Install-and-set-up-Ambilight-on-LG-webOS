@@ -112,9 +112,10 @@ https://github.com/satgit62/hyperion.ng-webos-loader
 # Controller Type Philips Hue 
 
 Philips Hue configuration see also:
-https://github.com/awawa-dev/HyperHDR/discussions/512
 
-https://docs.hyperion-project.org/de/user/leddevices/network/philipshue.html
+HyperHDR https://github.com/awawa-dev/HyperHDR/discussions/512 
+
+Hyperion https://docs.hyperion-project.org/de/user/leddevices/network/philipshue.html
 
 # Other LED Controllers
 
