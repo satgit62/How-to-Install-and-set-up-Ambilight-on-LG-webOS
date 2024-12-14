@@ -109,6 +109,12 @@ RGB LED lamps/bulbs that are registered under Home Assistant can also be set as 
 
 https://github.com/satgit62/hyperion.ng-webos-loader
 
+# Controller Type Philips Hue 
+
+Philips Hue configuration see also:
+https://github.com/awawa-dev/HyperHDR/discussions/512
+https://docs.hyperion-project.org/de/user/leddevices/network/philipshue.html
+
 # Other LED Controllers
 
 I would like to mention at this point that there are several ESP controllers with HyperSerial drivers from awawa-dev in GitHub, which can be installed on both ESP8266 and ESP32. For details and separate settings, please see:  https://github.com/awawa-dev/HyperSerialEsp8266 and https://github.com/awawa-dev/HyperSerialESP32/
