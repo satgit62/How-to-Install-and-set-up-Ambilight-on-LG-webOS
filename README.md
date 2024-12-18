@@ -117,6 +117,8 @@ https://github.com/satgit62/hyperion.ng-webos-loader
 
 For the Home Assistant settings, follow the instructions on GitHub: https://github.com/awawa-dev/HyperHDR/pull/1014
 
+https://github.com/satgit62/hyperhdr-webos-loader/releases/tag/latest
+
 # Controller Type Philips Hue 
 
 Philips Hue configuration see also:
