@@ -99,7 +99,7 @@ The white channel of the “Neutral RGBW” LEDs does not come close to the colo
 
 ![White channel calibration RGBW only](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/710579ab-d440-46e4-ba85-b2f56dc3261b)
 
-# Controller Type Home Assistant (Hyperion.NG only)
+# Controller Type Home Assistant Hyperion.NG
 
 RGB LED lamps/bulbs that are registered under Home Assistant can also be set as an instance here. To do this, a token must be created in Home Assistant and entered here. After saving, your homeassistant lamps are available here under Home. You can decide where the lamp is by using the LED position layout assistant.
 
@@ -108,6 +108,14 @@ RGB LED lamps/bulbs that are registered under Home Assistant can also be set as 
 ![LED-Controller Home Assistant](https://github.com/user-attachments/assets/3d4ea236-f9d2-4666-a0d4-5ce34706da94)
 
 https://github.com/satgit62/hyperion.ng-webos-loader
+
+# Controller Type Home Assistant HyperHDR
+
+![HyperHDR Home Assistant1](https://github.com/user-attachments/assets/d6da57e3-ec0c-444b-b46e-dea1f66d5799)
+
+![HyperHDR-Home Assistant1](https://github.com/user-attachments/assets/d9e825bc-a10e-437f-a3cb-0eac2790a731)
+
+For the Home Assistant settings, follow the instructions on GitHub: https://github.com/awawa-dev/HyperHDR/pull/1014
 
 # Controller Type Philips Hue 
 
