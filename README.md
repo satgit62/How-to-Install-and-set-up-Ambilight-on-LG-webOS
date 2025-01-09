@@ -435,7 +435,7 @@ To exchange/replace the backend files, you can use both the webOS Dev Manager an
 
 Download:
 
-[hyperion_webos_Release.zip](https://github.com/user-attachments/files/16316235/hyperion_webos_Release.zip)
+https://github.com/webosbrew/hyperion-webos/actions/runs/12244511211/artifacts/2296363294
 
 Installation instructions:
 
