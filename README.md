@@ -432,6 +432,7 @@ To exchange/replace the backend files, you can use both the webOS Dev Manager an
 
 ![FileZilla](https://github.com/user-attachments/assets/dc9135c6-178c-4c63-8ffc-d4490ae1dee1)
 
+# Updated backends NV12 from @sundermann December 2024. 
 
 Download:
 
