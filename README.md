@@ -61,7 +61,7 @@ By switching on the "QUIRK_DILE_VT_DUMP_LOCATION_2" options, the delay of the LE
 # NOTE:
 For newer devices with the "QUIRK_DILE_VT_DUMP_LOCATION_2" option switched on (e.g. C3, G3 and newer), make sure that the Quick Media Switching option under Settings --> General --> External devices --> HDMI settings is switched off. Otherwise, the LEDs will be faster than the picture when the media is running via HDMI players. This was noted and reported by user @Meg_the_Face.
 
-![Quick Media Switching1](https://github.com/user-attachments/assets/704ad9af-7878-42cb-a559-a40ac9766846)
+![Quick Media Switching1](https://github.com/user-attachments/assets/b47bcbcb-2582-4961-a535-7cf5ab83f0a2)
 
 ![Quick Media Switching](https://github.com/user-attachments/assets/0c7a3af1-cbe2-41cf-862b-32bf646ed917)
 
