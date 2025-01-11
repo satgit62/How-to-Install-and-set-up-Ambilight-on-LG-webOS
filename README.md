@@ -52,7 +52,7 @@ You can use the “top” command in Terminal/SSH to see what memory and CPU loa
 
 # Advanced Settings
 
-You may need to set the correct QUIRK. See: https://github.com/webosbrew/hyperion-webos#quirks.
+Depending on which backend your TV model uses for recording, you must set the correct QUIRK option. See: https://github.com/webosbrew/hyperion-webos#quirks.
 
 ![PicCap advanced settings](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/20f1dc05-f15a-4c72-b1d4-6779967e5176)
 
