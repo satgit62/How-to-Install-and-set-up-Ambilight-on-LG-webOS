@@ -50,9 +50,21 @@ You can use the “top” command in Terminal/SSH to see what memory and CPU loa
 
 ![CPU and Memory load](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/e4c8876d-d774-4cd7-a252-7808227d90e0)
 
-Under Advanced Settings, you may need to set the correct QUIRK. See: https://github.com/webosbrew/hyperion-webos#quirks.
+# Advanced Settings
+
+You may need to set the correct QUIRK. See: https://github.com/webosbrew/hyperion-webos#quirks.
 
 ![PicCap advanced settings](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/20f1dc05-f15a-4c72-b1d4-6779967e5176)
+
+By switching on the "QUIRK_DILE_VT_DUMP_LOCATION_2" options, the delay of the LEDs is also reduced to a minimum.
+
+# NOTE:
+For newer devices with the "QUIRK_DILE_VT_DUMP_LOCATION_2" option switched on (e.g. C3, G3 and newer), make sure that the Quick Media Switching option under Settings --> General --> External devices --> HDMI settings is switched off. Otherwise, the LEDs will be faster than the picture when the media is running via HDMI players. This was noted and reported by user @Meg_the_Face.
+
+![Quick Media Switching1](https://github.com/user-attachments/assets/704ad9af-7878-42cb-a559-a40ac9766846)
+
+![Quick Media Switching](https://github.com/user-attachments/assets/0c7a3af1-cbe2-41cf-862b-32bf646ed917)
+
 
 # HyperHDR/Hyperion.NG
 
