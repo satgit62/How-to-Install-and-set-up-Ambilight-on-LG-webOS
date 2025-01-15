@@ -38,7 +38,7 @@ Please do not install a developer mode app on a rooted device.
 Alternatively, you can install packages (.ipk) via SSH installation:
 
 `curl -k -L -o /tmp/app.ipk ‘<URL goes here>’
-  luna-send-pub -w 15000 -i ‘luna://com.webos.appInstallService/dev/install’ ‘{’id‘: “com.ares.defaultName”, “ipkUrl”:’/tmp/app.ipk‘, “subscribe”:true}’`   ‘<URL goes here>’ must be replaced by the .ipk address.
+  luna-send-pub -w 15000 -i ‘luna://com.webos.appInstallService/dev/install’ ‘{’id‘: “com.ares.defaultName”, “ipkUrl”:’/tmp/app.ipk‘, “subscribe”:true}’`  
   
 
 After the restart, open PicCap and go directly to the Logs menu and wait until the service has been given root rights (Elevated Services).
