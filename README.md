@@ -6,7 +6,7 @@ The prerequisite for Ambilight is an LG TV device that has been successfully roo
 
 # Attention!
 On newer TVs there is no official way for capturing DRM-protected content like from Netflix or Amazon. This restriction doesn't take place for content comming from an HDMI input.
-So currently as a workaround you can play your media using your PC, FireTV-Stick or Chromecast and still enjoy your LEDs (Ambilight). On my old webOS 3.9 and 4.x it also works via internal apps.
+So currently as a workaround you can play your media using your PC, Apple TV, FireTV-Stick or Chromecast and still enjoy your LEDs (Ambilight). On my old webOS 3.9 and 4.x it also works via internal apps.
 
 After a successful rooting with one of the known methods (faultmanager-autoroot, DejaVuln or mvpd-autoroot) PicCap (hyperion-webos) and the mostly used HyperHDR or Hyperion, LEDs control/processing software from Homebrew Channel must be installed and configured. 
 
