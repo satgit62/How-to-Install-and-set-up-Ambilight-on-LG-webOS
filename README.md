@@ -2,7 +2,7 @@
 
 Installation instructions and settings for PicCap (hyperion-webos) and HyperHDR/Hyperion
 
-The prerequisite for Ambilight is an LG TV device that has been successfully rooted and the Homebrew Channel installed. You can find out whether your device can be rooted at https://cani.rootmy.tv/ by entering your LG model type, or by following these instructions: https://gist.github.com/throwaway96/e811b0f7cc2a705a5a476a8dfa45e09f
+The prerequisite for Ambilight is an LG TV device that has been successfully rooted and the Homebrew Channel installed. You can find out whether your device can be rooted at https://cani.rootmy.tv/ by entering your LG model type.
 
 # Attention!
 On newer TVs there is no official way for capturing DRM-protected content like from Netflix or Amazon. This restriction doesn't take place for content comming from an HDMI input.
