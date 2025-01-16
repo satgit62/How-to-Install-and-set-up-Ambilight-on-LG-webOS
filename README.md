@@ -457,6 +457,8 @@ Download:
 
 https://github.com/webosbrew/hyperion-webos/actions/runs/12244511211/artifacts/2296363294
 
+If you don't have a GitHub account, I've added the hyperion_webos_Release.zip file at the top of the main.  
+
 Installation instructions:
 
 1. call up PicCap under Apps and stop the service.
