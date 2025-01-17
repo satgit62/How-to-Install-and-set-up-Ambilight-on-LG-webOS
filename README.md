@@ -47,8 +47,23 @@ After the restart, open PicCap and go directly to the Logs menu and wait until t
 
 Usually, after a restart PicCap sets itself to the automatic default settings.
 These are, among others, the IP address of HyperHDR/Hyperion, internal host is default 127.0.0.1 and port 19400, Hyperion priority 150, the resolution, maximum FPS, video capture backend, graphical capture backend as well as the autostart and VSync.
+
 Note: Depending on the webOS version, the video and graphical backend is different and should be set correctly instead of automatically if required. See: https://github.com/webosbrew/hyperion-webos#hyperion-webos.
-Remark! If you have a device with a weak CPU/memory performance, I recommend that you select a smaller resolution (256 × 144) at 30fps instead of 60 fps and reduce the Hyperion priority from 150 to 100. You can also do without the “Graphical Capture Backend” to reduce the delay and conserve device resources.
+
+You have to test for yourself which resolution your device harmonises with PicCap.
+
+# Attention! Some devices absolutely need 360x180.
+ 
+The most common resolutions for PicCap are:
+
+```
+128x72
+160x90
+192x108
+256x144
+360x180
+```
+Note! If you have a device with low CPU/memory performance, I recommend using a lower resolution (256 × 144) at 30 fps instead of 60 fps and reducing the Hyperion priority from 150 to 100 if the device allows it. You can also disable the 'Graphical Capture Backend' to reduce delay and save device resources.
 
 ![PicCap Einstellungen](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/21a951b7-f75d-41fd-b496-15d1245bd35b)
 If everything is configured correctly and the connection to HyperHDR/Hyperion is established, you will see the following in the bottom bar under “State: Getting status info. I Receiver:Connected” with the respective UI and video backend as well as the selected frame rate.
