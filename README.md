@@ -435,9 +435,23 @@ Go to "Config" and then to "WiFi Setup". At the bottom of this page select the E
 
 # Power Supply
 
-Example of power supply units that can be used:
-Switching power supply “MEAN WELL Well 1439455 LRS-75-5 AC power supply Module” (Please note that a 3-pole mains connection cable is also required here) or closed switching power supply “5V Power Supply 5 Volt 15A 75W Adapter 100V~240V AC to DC Converter 5 Vdc 15 Amp Power Transformer for LED Pixel Strip Light”
-“ALITOVE Netzteil 5V 15A Universal Adapter 5 Volt Netzteil 75W” and the screw-on adapter to match “Female And Male DC Connectors 2.5×5.5 mm Power Plug Adapter Jacks Sockets Connector For Signal Color LED Strip CCTV Camera”
+A good choice of power supply is the Mean Well LRS-100-5 Case 5 V/DC/0-18/90W. This is a short circuit proof switch mode power supply that will meet all requirements up to 18A. MEAN WELL 1439455 LRS-75-5 AC 85-264VAC 5V 14A power supply. This is a short circuit proof switch mode power supply that will meet all requirements up to 18A
+A 3 pin power cable with L, N and GND and a suitable plug such as an EU, UK or USA plug is required for connection.
+
+![Mean Well LRS-100-5-0](https://github.com/user-attachments/assets/868867c8-4b9c-403b-a1b5-d613869f1bf6)
+
+Alternatively, you can use the closed switching power supply ‘5V Power Supply 5 Volt 15A 75W Adapter 100V~240V AC to DC Converter 5 Vdc 15 Amp Power Transformer for LED Pixel Strip Light’ ‘ALITOVE Power Supply 5V 15A Universal Adapter 5 Volt Power Supply 75W’ and the matching screw adapter ‘Female And Male DC Connectors 2.5×5.5 mm Power Plug Adapter Jacks Sockets Connector For Signal Colour LED Strip CCTV Camera’.
+
+![Alitov Netzteil](https://github.com/user-attachments/assets/c81b0f4b-e3cf-422d-bfba-5e597438c61f)
+
+# LEDs
+
+The SK6812RGBW LEDs have an additional white channel and are currently the better alternative to the WS2812B. They are available as SK6812RGBW NW (Neutral White) and SK6812RGBW CW (Cold White). When using HyperSerial and HyperSerialPico from @awawa-dev, the CW version is recommended. However, the NW version can also be used, with a small adjustment in the blue/white channel aspect.
+60 LEDs per metre is the best choice. It is not worth using 144 LEDs per metre, as the response time increases with the number of LEDs, and this leads to undesirable latency. The non-waterproof IP30 version is suitable for indoor use and is more flexible when installed on the device.
+
+![SK6812RGBW](https://github.com/user-attachments/assets/ba7b2218-498d-4b7a-a68a-c13ee7accba7)
+
+# Note
 
 For a helpful calculation of the required power supply rating, cable cross-section, fuse and other parameters depending on the number and type of LEDs, you should definitely consult https://wled-calculator.github.io/.
 
