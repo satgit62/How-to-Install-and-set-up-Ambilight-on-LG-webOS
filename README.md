@@ -435,7 +435,7 @@ Go to "Config" and then to "WiFi Setup". At the bottom of this page select the E
 
 # Power Supply
 
-A good choice of power supply is the Mean Well LRS-100-5 Case 5 V/DC/0-18/90W. This is a short circuit proof switch mode power supply that will meet all requirements up to 18A. MEAN WELL 1439455 LRS-75-5 AC 85-264VAC 5V 14A power supply. This is a short circuit proof switch mode power supply that will meet all requirements up to 18A
+A good choice of power supply is the Mean Well LRS-100-5 Case 5 V/DC/0-18/90W. This is a short circuit proof switch mode power supply that will meet all requirements up to 18A. MEAN WELL 1439455 LRS-75-5 AC 85-264VAC 5V 14A power supply. This is a short circuit proof switch mode power supply that will meet all requirements up to 14A
 A 3 pin power cable with L, N and GND and a suitable plug such as an EU, UK or USA plug is required for connection.
 
 ![Mean Well LRS-100-5-0](https://github.com/user-attachments/assets/868867c8-4b9c-403b-a1b5-d613869f1bf6)
