@@ -454,6 +454,10 @@ The SK6812RGBW LEDs have an additional white channel and are currently the bette
 
 ![SK6812RGBW](https://github.com/user-attachments/assets/ba7b2218-498d-4b7a-a68a-c13ee7accba7)
 
+18 AWG 0.75 mm² or 16 AWG 1.27 mm² silicone wire is recommended for the power connection and the connection of the LED strips/segments. 
+![Silikon Kabel](https://github.com/user-attachments/assets/b8ffa3b9-2fee-4cc0-9e9c-c78f07ac2549)
+
+
 # Note
 
 For a helpful calculation of the required power supply rating, cable cross-section, fuse and other parameters depending on the number and type of LEDs, you should definitely consult https://wled-calculator.github.io/.
