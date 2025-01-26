@@ -38,9 +38,9 @@ Please do not install a developer mode app on a rooted device.
 Alternatively, you can install packages (.ipk) via SSH installation:
 
 ```
-curl -k -L -o /tmp/app.ipk ‘<URL goes here>’ luna-send-pub -w 15000 -i ‘luna://com.webos.appInstallService/dev/install’ ‘{’id‘: “com.ares.defaultName”, “ipkUrl”:’/tmp/app.ipk‘, “subscribe”:true}’
-```
-  
+  curl -k -L -o /tmp/app.ipk '<URL goes here>'
+  luna-send-pub -w 15000 -i 'luna://com.webos.appInstallService/dev/install' '{"id":"com.ares.defaultName","ipkUrl":"/tmp/app.ipk","subscribe":true}
+``` 
 After the restart, open PicCap and go directly to the Logs menu and wait until the service has been given root rights (Elevated Services).
 
 ![PicCap-log](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/a54c1768-5583-48b6-b6c6-29f92c5c54ec)
