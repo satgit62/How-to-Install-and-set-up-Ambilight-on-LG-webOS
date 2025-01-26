@@ -41,7 +41,7 @@ Alternatively, you can install packages (.ipk) via SSH installation:
   curl -k -L -o /tmp/app.ipk '<URL goes here>'
   luna-send-pub -w 15000 -i 'luna://com.webos.appInstallService/dev/install' '{"id":"com.ares.defaultName","ipkUrl":"/tmp/app.ipk","subscribe":true}
 ```
-Note: The download link of the .ipk replaces the <URL goes here>.
+Note: The download link of the .ipk replaces the `<URL goes here>`.
 
 After the restart, open PicCap and go directly to the Logs menu and wait until the service has been given root rights (Elevated Services).
 
