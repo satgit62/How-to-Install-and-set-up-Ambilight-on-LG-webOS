@@ -472,56 +472,11 @@ For a helpful calculation of the required power supply rating, cable cross-secti
 
 Important note!
 
-# PicCap (webos-hyperion) update
+# PicCap (webos-hyperion) UPDATE vom 29.01.2025:
 
-After a few years, it was discovered that PicCap provides the wrong algorithm for the color calculation for HyperHDR and therefore the LED colors do not match the TV picture. 
-The data is captured with FMT_ABGR, which is actually ARGB. ABGRToARGB, now the bytes are actually BGR, ARGBToRGB24, which in turn is changed to get RGB again.
+Version 0.5.0 von PicCap mit der neuen Backends und NV12 ist offiziell im Homebrew Channel veröffentlicht worden. 😃
 
-Among other things, the new generation of devices was also taken into account and the so-called “libvtcapture_backend” and the older “libdile_vt_backend” were adapted.
-Devices of the LX SoCs such as C1, C2, C3, G1, G2, G3 and A series.
-
-Because the PicCap developer is currently not active, you have to make the changes manually and update the backends under the “hyperion-webos” yourself. 
-
-Thanks to @sundermann for the new backend.
-
-# Note:
-To exchange/replace the backend files, you can use both the webOS Dev Manager and FileZilla. See pictures.
-
-![webOS Dev Manager](https://github.com/user-attachments/assets/a9139a0c-3723-4a8c-94bd-7b3ce4166ea2)
-
-![webOS Dev Manager Backends](https://github.com/user-attachments/assets/1bc2a1bb-cf7f-4f8e-93bd-87377376e734)
-
-![FileZilla](https://github.com/user-attachments/assets/dc9135c6-178c-4c63-8ffc-d4490ae1dee1)
-
-# Updated backends NV12 from @sundermann December 2024. 
-
-Download:
-
-https://github.com/webosbrew/hyperion-webos/actions/runs/12244511211/artifacts/2296363294
-
-If you don't have a GitHub account, I've added the hyperion_webos_Release.zip file at the top of the main.  
-
-Installation instructions:
-
-1. call up PicCap under Apps and stop the service.
-2. unzip the hyperion_webos_Release.zip and copy the content to `/media/developer/apps/usr/palm/services/org.webosbrew.piccap.service/` on the TV. (Replace the hyperion-webos and the backends in the folder)
-3. restart the TV and run PicCap to get root. When this is done, you will see in the bottom right of the status bar whether the receiver is “connected” to the respective UI and video backends.
-
-Now you may have to reset the color and gamma settings you made before, as the color calculation is now correct. Depending on the type of LEDs used, readjust if necessary.
-
-You can check the actual hexadecimal color values in HyperHDR Live LED visualization with the browser, other tools, color pipette and check if they correspond to reality. Calculation from hexadecimal to decimal can be found in: https://www.farb-tabelle.de/de/farbtabelle.htm
-
-The color correction I achieved with it can be seen in the “EBU Color bars results”. This corresponds to 99.9 percent of reality!
-
-The file “EBU Color bars results” with the correct resolution Download: https://en.m.wikipedia.org/wiki/File:EBU_Colorbars_HD.svg#file
-
-![EBU Color bars color results](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/d25d733a-4a07-44d3-b02a-26959ef32895)
-
-![EBU_Colorbars_HD svg](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/794d28a5-1e95-450e-8ed0-39e9ca3b23ba)
-
-![Farbpipette](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/27131ff3-4809-45d2-853f-c6b9dabf3dc9)
-
-![Led-Visualisierung_Farbpipette](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/8307f8a9-f39c-4cdf-8920-27c7d10f273f)
+https://github.com/TBSniller/piccap/releases/tag/0.5.0
 
 # NOTE
 
