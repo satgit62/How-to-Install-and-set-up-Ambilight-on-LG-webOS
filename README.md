@@ -476,7 +476,7 @@ Important note!
 
 Version 0.5.0 von PicCap mit der neuen Backends und NV12 ist offiziell im Homebrew Channel veröffentlicht worden. 😃
 
-https://github.com/TBSniller/piccap/releases/tag/0.5.0
+https://github.com/TBSniller/piccap/releases/download/0.5.0/org.webosbrew.piccap_0.5.0_all.ipk
 
 # NOTE
 
