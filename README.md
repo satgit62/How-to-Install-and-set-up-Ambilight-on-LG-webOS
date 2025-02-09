@@ -324,6 +324,8 @@ If the connection between WLED and router is interrupted, select under WiFi Sett
 
 ![WI-FI](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/e1578c44-f8a6-465a-921f-73cbe776966d)
 
+# Hardware and wiring diagram:
+
 # Quinled-dig-uno-v3-digital-led-controller
 
 For those who prefer WLED firmware because of all the extras, but have had a bad experience over WiFi because of the long delay, then I recommend the ESP32 variant with built-in LAN connection. 
@@ -449,7 +451,11 @@ Alternatively, you can use the closed switching power supply ‘5V Power Supply 
 
 # LEDs
 
-The SK6812RGBW LEDs have an additional white channel and are currently the better alternative to the WS2812B. They are available as SK6812RGBW NW (Neutral White) and SK6812RGBW CW (Cold White). When using HyperSerial and HyperSerialPico from @awawa-dev, the CW version is recommended. However, the NW version can also be used, with a small adjustment in the blue/white channel aspect.
+Since the SK6812 RGBW has an additional white channel (RGB white + white) compared to the WS2812, which only has RGB, is of course better than the WS2812, but this must be taken into account in the LED calculator. 
+
+![SK6812 RGB White + White](https://github.com/user-attachments/assets/238ee2d3-dbaa-47ee-a90b-91a15a401b8d)
+
+They are available as SK6812RGBW NW (Neutral White) and SK6812RGBW CW (Cold White). When using HyperSerial and HyperSerialPico from @awawa-dev, the CW version is recommended. However, the NW version can also be used, with a small adjustment in the blue/white channel aspect.
 60 LEDs per metre is the best choice. It is not worth using 144 LEDs per metre, as the response time increases with the number of LEDs, and this leads to undesirable latency. The non-waterproof IP30 version is suitable for indoor use and is more flexible when installed on the device.
 
 ![SK6812RGBW](https://github.com/user-attachments/assets/ba7b2218-498d-4b7a-a68a-c13ee7accba7)
