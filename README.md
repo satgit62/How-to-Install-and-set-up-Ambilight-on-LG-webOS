@@ -323,6 +323,7 @@ In the LED settings under “White management”--> “White Balance correction�
 If the connection between WLED and router is interrupted, select under WiFi Settings --> Disable WiFi sleep to prevent the ESP from switching off its WiFi. In this case, the ESP32 can consume more power, but the connection remains active.
 
 ![WI-FI](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/e1578c44-f8a6-465a-921f-73cbe776966d)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Hardware and wiring diagram:
 
