@@ -460,7 +460,7 @@ They are available as SK6812RGBW NW (Neutral White) and SK6812RGBW CW (Cold Whit
 
 ![SK6812RGBW](https://github.com/user-attachments/assets/ba7b2218-498d-4b7a-a68a-c13ee7accba7)
 
-18 AWG 0.75 mm² or 16 AWG 1.27 mm² silicone wire is recommended for the power connection and the connection of the LED strips/segments. 
+For a number of up to 120 LEDs, use AWG 20 (0.519 mm2); for more than 120 LEDs, use AWG 18 (0.75 mm²) or AWG 16 (1.27 mm²) silicone wire for the power connection and for connecting the LED strips/segments. 
 
 ![Silikon Kabel](https://github.com/user-attachments/assets/b8ffa3b9-2fee-4cc0-9e9c-c78f07ac2549)
 
