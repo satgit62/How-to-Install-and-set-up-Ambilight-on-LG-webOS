@@ -481,7 +481,7 @@ Important note!
 
 # PicCap (webos-hyperion) UPDATE vom 16.02.2025:
 
-Version 0.5.1 of PicCap with the new NV12 backends has been released. YUV422 to NV12 conversion has been added. 😃
+Version 0.5.1 of PicCap with the new NV12 backends has been released. YUV422 to NV12 conversion has been added. 
 
 https://github.com/TBSniller/piccap/releases/download/0.5.1/org.webosbrew.piccap_0.5.1_all.ipk
 
