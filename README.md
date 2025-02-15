@@ -479,11 +479,11 @@ For a helpful calculation of the required power supply rating, cable cross-secti
 
 Important note!
 
-# PicCap (webos-hyperion) UPDATE vom 29.01.2025:
+# PicCap (webos-hyperion) UPDATE vom 16.02.2025:
 
-Version 0.5.0 von PicCap mit der neuen Backends und NV12 ist offiziell im Homebrew Channel veröffentlicht worden. 😃
+Version 0.5.1 of PicCap with the new NV12 backends has been released. YUV422 to NV12 conversion has been added. 😃
 
-https://github.com/TBSniller/piccap/releases/download/0.5.0/org.webosbrew.piccap_0.5.0_all.ipk
+https://github.com/TBSniller/piccap/releases/download/0.5.1/org.webosbrew.piccap_0.5.1_all.ipk
 
 # NOTE
 
