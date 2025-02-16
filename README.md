@@ -45,7 +45,7 @@ Note: The download link of the .ipk replaces the `<URL goes here>`.
 
 After the restart, open PicCap and go directly to the Logs menu and wait until the service has been given root rights (Elevated Services).
 
-![PicCap-log](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/a54c1768-5583-48b6-b6c6-29f92c5c54ec)
+![PicCap Logs](https://github.com/user-attachments/assets/e2fc4898-7917-4352-8b3a-80f87dbf7f9c)
 
 Usually, after a restart PicCap sets itself to the automatic default settings.
 These are, among others, the IP address of HyperHDR/Hyperion, internal host is default 127.0.0.1 and port 19400, Hyperion priority 150, the resolution, maximum FPS, video capture backend, graphical capture backend as well as the autostart and VSync.
