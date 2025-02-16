@@ -65,9 +65,16 @@ The most common resolutions for PicCap are:
 256x144
 360x180
 ```
-Note! If you have a device with low CPU/memory performance, I recommend using a lower resolution (256 × 144) at 30 fps instead of 60 fps and reducing the Hyperion priority from 150 to 100 if the device allows it. You can also disable the 'Graphical Capture Backend' to reduce delay and save device resources.
+# Note! 
 
-![PicCap Einstellungen](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/21a951b7-f75d-41fd-b496-15d1245bd35b)
+If you have a device with low CPU/memory power, I recommend using a lower resolution (256 × 144) at 30 fps instead of 60 fps and reducing the Hyperion priority from 150 to 100 if the device allows it. You can also deactivate the ‘Graphical Capture Backend’ to reduce the delay and save device resources. Positive effect: You can achieve more FPS if you deactivate UI Capture. Compare the images.
+
+![PicCap Service Settings1](https://github.com/user-attachments/assets/d4cf5fa6-2a54-4f04-8cb3-4a66b831c147)
+
+
+![PicCap Service Settings](https://github.com/user-attachments/assets/4bd597e7-df0e-4717-bd8b-9be7f4a09b28)
+
+
 If everything is configured correctly and the connection to HyperHDR/Hyperion is established, you will see the following in the bottom bar under “State: Getting status info. I Receiver:Connected” with the respective UI and video backend as well as the selected frame rate.
 
 You can use the “top” command in Terminal/SSH to see what memory and CPU load “hyperion-webos” and “hyperhdr” are using.
@@ -78,7 +85,7 @@ You can use the “top” command in Terminal/SSH to see what memory and CPU loa
 
 Depending on which backend your TV model uses for recording, you must set the correct QUIRK option. See: https://github.com/webosbrew/hyperion-webos#quirks.
 
-![PicCap advanced settings](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/20f1dc05-f15a-4c72-b1d4-6779967e5176)
+![PicCap Service Advanced Service](https://github.com/user-attachments/assets/d67762e5-25b9-4945-bc80-2d6e71cdcf18)
 
 By switching on the "QUIRK_DILE_VT_DUMP_LOCATION_2" options, the delay of the LEDs is also reduced to a minimum.
 
