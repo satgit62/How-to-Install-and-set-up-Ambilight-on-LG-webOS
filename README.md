@@ -219,6 +219,15 @@ The settings are important for:
 
 The actual position of the LEDs is determined by these layout specifications. 
 
+# Further instances
+
+Further instances for additional LEDs or lamps can be configured in HyperHDR/Hyperion.NG under LED Hardware Instance Management. 
+
+![New Instance name](https://github.com/user-attachments/assets/b5c87ec1-9e37-4106-be8b-2839ad00b593)
+
+These can consist of additional LED strips on ESP32/RP2040 controllers, Zigbee/Philips Hue or Skydimo LEDs/lamps. 
+As with the main instance, each additional instance is assigned an LED controller and the area to be displayed under Layout.
+
 # Effects
 
 In the next step, we turn to the menu effects (effects) and ensure that the boat effects and background effect remain switched off. Do not check the relevant boxes. Otherwise, you will have unwanted “flashing orgies” when starting the TV.
