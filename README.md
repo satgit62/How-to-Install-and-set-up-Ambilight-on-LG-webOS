@@ -228,6 +228,10 @@ Further instances for additional LEDs or lamps can be configured in HyperHDR/Hyp
 These can consist of additional LED strips on ESP32/RP2040 controllers, Zigbee/Philips Hue or Skydimo LEDs/lamps. 
 As with the main instance, each additional instance is assigned an LED controller and the area to be displayed under Layout.
 
+Once the new instance has been created, it can be started, and you can switch to the new instance in the menu to make further settings such as LED controller, layout, color calibration, etc. See illustration.
+
+![Instance Management](https://github.com/user-attachments/assets/9b784fe5-06ab-47c9-9a7d-4b7d889198e9)
+
 # Effects
 
 In the next step, we turn to the menu effects (effects) and ensure that the boat effects and background effect remain switched off. Do not check the relevant boxes. Otherwise, you will have unwanted “flashing orgies” when starting the TV.
