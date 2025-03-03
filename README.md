@@ -61,12 +61,12 @@ The best solution is to divide the highest resolution of 3840x2160. Dividing 384
 The most common resolutions for PicCap are:
 
 ```
-128x72
-160x90
-192x108
-256x144
-360x180
 384x216
+360x180
+256x144
+192x108
+160x90
+128x72
 ```
 # Note! 
 
