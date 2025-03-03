@@ -54,7 +54,7 @@ Note: Depending on the webOS version, the video and graphical backend is differe
 
 You have to test for yourself which resolution your device harmonises with PicCap.
 
-# Attention! Some devices absolutely need 360x180.
+# Attention! Some devices require a minimum of 360x180.
 
 The best solution is to divide the highest resolution of 3840x2160. Dividing 3840x2160 by 10 gives 384x216. A resolution divided by 15, e.g. 256x144, should also work, as should a division by 20, e.g. 192x108. Below this resolution, it becomes critical due to noise in the preview image. This also affects the color reproduction. Unfortunately, some devices/WebOS combinations only work with certain resolutions.
  
