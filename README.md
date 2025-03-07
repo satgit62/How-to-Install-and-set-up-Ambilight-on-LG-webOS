@@ -80,7 +80,7 @@ See another tutorial of mine: https://github.com/satgit62/Ultimate-HyperHDR-Ambi
 If you have a device with low CPU/memory power, I recommend using a lower resolution (256 × 144) at 30 fps instead of 60 fps and reducing the Hyperion priority from 150 to 100 if the device allows it. You can also deactivate the ‘Graphical Capture Backend’ to reduce the delay and save device resources. Positive effect: You can achieve more FPS if you deactivate UI Capture. Compare the images.
 
 
-![PicCap Service Settings](https://github.com/user-attachments/assets/4bd597e7-df0e-4717-bd8b-9be7f4a09b28)
+![PicCap](https://github.com/user-attachments/assets/48e60206-5831-4c57-bb90-e5fa93b2efef)
 
 
 If everything is configured correctly and the connection to HyperHDR/Hyperion is established, you will see the following in the bottom bar under “State: Getting status info. I Receiver:Connected” with the respective UI and video backend as well as the selected frame rate.
