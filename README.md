@@ -72,8 +72,6 @@ The most common resolutions for PicCap are:
 
 If you have a device with low CPU/memory power, I recommend using a lower resolution (256 × 144) at 30 fps instead of 60 fps and reducing the Hyperion priority from 150 to 100 if the device allows it. You can also deactivate the ‘Graphical Capture Backend’ to reduce the delay and save device resources. Positive effect: You can achieve more FPS if you deactivate UI Capture. Compare the images.
 
-![PicCap Service Settings1](https://github.com/user-attachments/assets/d4cf5fa6-2a54-4f04-8cb3-4a66b831c147)
-
 
 ![PicCap Service Settings](https://github.com/user-attachments/assets/4bd597e7-df0e-4717-bd8b-9be7f4a09b28)
 
