@@ -128,7 +128,9 @@ First go to LED hardware and make the settings under LED controller.
 # ESP32 controller with “WLED” firmware:
 
 To use the WLED LED controller in HyperHDR/Hyperion.NG, a functioning installed WLED on compatible hardware is required. See WLED project:https://kno.wled.ge/ 
-The WLED Web Installer Service at https://install.wled.me/ can be used to flash a compatible ESP32/8266 board. Please note that, depending on the ESP version used, a valid CH340 or CP210x driver may be required for flashing and for use under webOS. ESP32 S2 Mini does not require a separate driver.
+The WLED Web Installer Service at https://install.wled.me/ can be used to flash a compatible ESP32/8266 board. 
+
+Please note that depending on the ESP version used, a valid CH340 or CP210x driver may be required for flashing and under certain circumstances (use of USB HyperSerial) for LG webOS. No separate driver is required for the ESP32 S2 Mini.
 
 CH340 Drivers for Windows, and Mac see: https://www.wemos.cc/en/latest/ch340_driver.html, and CP210x Drivers see:https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
 
