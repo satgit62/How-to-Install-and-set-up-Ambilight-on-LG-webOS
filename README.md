@@ -120,14 +120,20 @@ Once the HyperHDR daemon service is successfully started, open a browser of your
 
 ![HyperHDR Web Configuration](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/aabea194-8a85-43f9-9e59-b69270235baa)
 
-HyperHDR LED Controller type settings for ESP32 controller with “WLED” firmware:
+
+# HyperHDR LED Controller type settings:
 
 First go to LED hardware and make the settings under LED controller.
 
-# Controller udpraw Protocol for WLED
+# ESP32 controller with “WLED” firmware:
+
+To use the WLED LED controller in HyperHDR/Hyperion.NG, a functioning installed WLED on compatible hardware is required. See WLED project: https://kno.wled.ge/ 
+The WLED Web Installer Service at https://install.wled.me/ can be used to flash a compatible ESP32/8266 board. Please note that, depending on the ESP version used, a valid CH340 or CP210x driver may be required for flashing and for use under webOS. ESP32 S2 Mini does not require a separate driver.
 
 You can select WLED under LED controller, but in conjunction with some ESP versions, the LEDs were not switched off when the TV was switched off. 
 So I prefer here as controller type: udpraw, RGB byte order: RGB, update time 0, target IP: IP address of your ESP/WLED and port: 19446.
+
+# Controller udpraw Protocol for WLED
 
 ![udp raw](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/77f1c58c-c5c2-47c8-bb57-6eda23c6328a)
 
