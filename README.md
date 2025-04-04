@@ -131,6 +131,7 @@ To use the WLED LED controller in HyperHDR/Hyperion.NG, a functioning installed 
 The WLED Web Installer Service at https://install.wled.me/ can be used to flash a compatible ESP32/8266 board. Please note that, depending on the ESP version used, a valid CH340 or CP210x driver may be required for flashing and for use under webOS. ESP32 S2 Mini does not require a separate driver.
 
 Drivers for Windows, and Mac see: https://www.wemos.cc/en/latest/ch340_driver.html, and CP210x see:https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
+
 Various kernel drivers for LG webOS can be found at:https://github.com/throwaway96/webos-kernel-drivers
 
 You can select WLED under LED controller, but in conjunction with some ESP versions, the LEDs were not switched off when the TV was switched off. 
