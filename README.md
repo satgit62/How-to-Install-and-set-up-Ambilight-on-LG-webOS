@@ -490,6 +490,15 @@ Alternatively, you can use the closed switching power supply ‘5V Power Supply 
 
 ![Alitov Netzteil](https://github.com/user-attachments/assets/c81b0f4b-e3cf-422d-bfba-5e597438c61f)
 
+# Quick Connect terminal blocks
+
+For quick connections, you can use “Fast Wire Connector Push-in Electrical Terminal Block Universal Splicing” or “Quick Connect terminal blocks” from WAGO or DYGO.
+
+![DYGO](https://github.com/user-attachments/assets/4154c241-09f0-4bbe-b410-41b723382a7b)
+
+![WAGO](https://github.com/user-attachments/assets/39ac7a24-7c01-47f7-96e6-9d9e9918911b)
+
+
 # LEDs
 
 Since the SK6812 RGBW has an additional white channel (RGB white + white) compared to the WS2812, which only has RGB, is of course better than the WS2812, but this must be taken into account in the LED calculator. 
