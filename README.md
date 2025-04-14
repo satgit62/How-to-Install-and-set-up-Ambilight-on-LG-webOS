@@ -365,13 +365,15 @@ If the connection between WLED and router is interrupted, select under WiFi Sett
 ![WI-FI](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/e1578c44-f8a6-465a-921f-73cbe776966d)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
+
 # Hardware and wiring diagram:
 
 
 # Insanelight Wemos D1 Mini WLED
 
 One of the most popular and cost-effective standard solutions in the EU/Germany is the “Insanelight Wemos D1 Mini WLED RGBW” package. The desired configuration can be created on the sales page.
-The set is completely pre-configured and ready for connection.
+The set is completely pre-configured and ready for connection up to a current consumption of 10 A at 5 volts.
 
 ![Insanelight Wemos D1 Mini WLED RGBW](https://github.com/user-attachments/assets/bc57ecc3-300c-4fe6-9709-96bc81c6b436)
 
