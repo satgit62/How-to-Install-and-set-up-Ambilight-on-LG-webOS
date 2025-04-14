@@ -367,6 +367,14 @@ If the connection between WLED and router is interrupted, select under WiFi Sett
 
 # Hardware and wiring diagram:
 
+
+# Insanelight Wemos D1 Mini WLED
+
+One of the most popular and cost-effective standard solutions in the EU/Germany is the “Insanelight Wemos D1 Mini WLED RGBW” package. The desired configuration can be created on the sales page.
+The set is completely pre-configured and ready for connection.
+
+![Insanelight Wemos D1 Mini WLED RGBW](https://github.com/user-attachments/assets/bc57ecc3-300c-4fe6-9709-96bc81c6b436)
+
 # Quinled-dig-uno-v3-digital-led-controller
 
 For those who prefer WLED firmware because of all the extras, but have had a bad experience over WiFi because of the long delay, then I recommend the ESP32 variant with built-in LAN connection. 
