@@ -408,6 +408,8 @@ For those who do not use a ready-made LED controller with a built-in level shift
 
 # LEDs Logic control without level shifter
 
+It can work, but it doesn't have to. (I always prefer a level shifter)
+
 With a little trick (hack), a 3.3 V microcontroller without a level shifter can be used to control 5 V LEDs with a single diode and a sacrificial LED.
 The first LED is lowered to 4.3 V by the diode so that a signal of 4.3 V * 0.7 = 3.01 V can be used for control. The logic of this LED is 4.3 V, which is sufficient to supply the other LEDs with 5 V.
 Pay attention to the actual pin arrangement of your LED strips such as + 5V, GND and Data in (DI).
