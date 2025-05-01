@@ -406,6 +406,15 @@ For those who do not use a ready-made LED controller with a built-in level shift
 
 ![level shifter1](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/650c56c7-7c51-476a-a265-a1902e0c1f8b)
 
+# LEDs Logic control without level shifter
+
+With a little trick (hack), a 3.3 V microcontroller without a level shifter can be used to control 5 V LEDs with a single diode and a sacrificial LED.
+The first LED is lowered to 4.3 V by the diode so that a signal of 4.3 V * 0.7 = 3.01 V can be used for control. The logic of this LED is 4.3 V, which is sufficient to supply the other LEDs with 5 V.
+Pay attention to the actual pin arrangement of your LED strips such as + 5V, GND and Data in (DI).
+The arrangement may vary depending on the LED strips used.
+
+![Level conversion using a diode   sacrificial LED for 3v3 to 5V](https://github.com/user-attachments/assets/73da9b0e-1c33-4b40-95b1-b608cff8da5c)
+
 # Example Connection of various LED controllers
 
 Install HyperSerialPico firmware on controller:
