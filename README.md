@@ -402,7 +402,7 @@ Just google:
 
 # Level Shifter
 
-For those who do not use a ready-made LED controller with a built-in level shifter, I strongly recommend integrating a level shifter into the circuit. Since most LEDs need to be supplied with 5 volts, but the logic of the controller can only handle 3.2 volts, the direct DATA line should be connected via a level shifter.
+For those who do not use a ready-made LED controller with a built-in level shifter, I strongly recommend integrating a level shifter into the circuit. Since most LEDs need to be supplied with 5 volts, but the logic of the controller can only handle 3.3 volts, the direct DATA line should be connected via a level shifter.
 
 ![Leve Shifter 1 Output SN74AHCT125N](https://github.com/user-attachments/assets/aefaa235-bebb-402d-8b8b-7470f497c4b4)
 
