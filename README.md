@@ -402,9 +402,12 @@ Just google:
 
 # Level Shifter
 
-For those who do not use a ready-made LED controller with a built-in level shifter, I strongly recommend integrating a level shifter into the circuit. Since most LEDs need to be supplied with 5 volts, but the logic of the controller can only handle 3.2 volts, the direct DATA line should be connected via a level shifter. For testing purposes, you can temporarily install a 470 Ohm resistor on the DATA line and a 1000µF electrolytic capacitor on the 5 Volt+ and GND at the input of the LEDs. 
+For those who do not use a ready-made LED controller with a built-in level shifter, I strongly recommend integrating a level shifter into the circuit. Since most LEDs need to be supplied with 5 volts, but the logic of the controller can only handle 3.2 volts, the direct DATA line should be connected via a level shifter.
 
-![level shifter1](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/650c56c7-7c51-476a-a265-a1902e0c1f8b)
+![Leve Shifter 1 Output SN74AHCT125N](https://github.com/user-attachments/assets/aefaa235-bebb-402d-8b8b-7470f497c4b4)
+
+![Leve Shifter 2 Output SN74AHCT125N](https://github.com/user-attachments/assets/34d2c792-0bf8-4ec6-84b6-116c7c2d4db3)
+
 
 # LEDs Logic control without level shifter
 
