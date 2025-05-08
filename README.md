@@ -372,8 +372,8 @@ If the connection between WLED and router is interrupted, select under WiFi Sett
 
 # Insanelight Wemos D1 Mini WLED
 
-One of the most popular and cost-effective standard solutions in the EU/Germany is the “Insanelight Wemos D1 Mini WLED RGBW” package. The desired configuration can be created on the sales page.
-The set is completely pre-configured and ready for connection up to a current consumption of 10 A at 5 volts.
+One of the most popular and cost-effective standard solutions in the EU/Germany is the “Insanelight Wemos D1 Mini WLED RGBW” complete kit, based on a D1 Mini/node MCU-ESP8266 LED controller. The desired configuration can be created on the sales page.
+The set is completely pre-configured and ready for connection up to a current consumption of 10 A at 5 volts (approx. 260LEDs).
 
 ![Insanelight Wemos D1 Mini WLED RGBW](https://github.com/user-attachments/assets/bc57ecc3-300c-4fe6-9709-96bc81c6b436)
 
