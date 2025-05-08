@@ -393,7 +393,7 @@ Three-sided Ambilight for LG monitors or devices up to max 42"~48”
 
 # Note that the CH340/341 kernel driver is required to run on LG!
 
-As the current limit of USB 3 on LG is limited to 0.9A and the Skydimo has no power supply of its own, make sure it is connected via a USB hub with its own power supply and high output power (e.g. 2.4A per port) and powered from two ports via a USB 3.0 Y power cable. Otherwise, you will need to reduce the brightness considerably.
+As the current limit of USB 3 on LG is limited to 0.9A and the Skydimo has no power supply of its own, make sure it is connected via a USB hub with its own power supply and high output power (e.g. 2.4A per port) and powered from two ports via a USB 3.0 Y-cable for USB devices with high power consumption. Otherwise, you will need to reduce the brightness considerably.
 
 ![Skydimo Set](https://github.com/user-attachments/assets/01f3edee-e4c7-4c54-bdff-485acb4ddd25)
 
