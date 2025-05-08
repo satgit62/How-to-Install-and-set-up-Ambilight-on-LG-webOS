@@ -182,6 +182,16 @@ For the Home Assistant settings, follow the instructions on GitHub: https://gith
 
 https://github.com/satgit62/hyperhdr-webos-loader/releases/tag/latest
 
+# Controller type Skydimo
+
+Three-sided Ambilight for LG monitors or devices up to max 42"~48”
+
+# Attention
+
+For those who want to use the low-cost Skydimo set, first make sure you have the necessary CH34x kernel drivers installed on your LG. Most kernel drivers and installation instructions can be found at:https://github.com/throwaway96/webos-kernel-drivers
+
+![skydimo](https://github.com/user-attachments/assets/b2285eb4-6cb5-4374-8d3a-04ab37a6b7bf)
+
 # Controller Type Philips Hue 
 
 Philips Hue configuration see also:
