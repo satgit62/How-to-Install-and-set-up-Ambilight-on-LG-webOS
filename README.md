@@ -387,6 +387,21 @@ The set is completely pre-configured and ready for connection up to a current co
 
 ![Insanelight Wemos D1 Mini WLED RGBW](https://github.com/user-attachments/assets/bc57ecc3-300c-4fe6-9709-96bc81c6b436)
 
+# Skydimo
+
+Three-sided Ambilight for LG monitors or devices up to max 42"~48”
+
+# Note that the CH340/341 kernel driver is required to run on LG!
+
+As the current limit of USB 3 on LG is limited to 0.9A and the Skydimo has no power supply of its own, make sure it is connected via a USB hub with its own power supply and high output power (e.g. 2.4A per port) and powered from two ports via a USB 3.0 Y power cable. Otherwise, you will need to reduce the brightness considerably.
+
+![Skydimo Set](https://github.com/user-attachments/assets/01f3edee-e4c7-4c54-bdff-485acb4ddd25)
+
+![Skydimo Version](https://github.com/user-attachments/assets/e37998d0-ebe4-4c64-88fc-b843b403af3e)
+
+![USB 3 0 Y power supply cable](https://github.com/user-attachments/assets/a87ad4d3-9c23-4387-bf8c-bccdabe731e2)
+
+
 # Quinled-dig-uno-v3-digital-led-controller
 
 For those who prefer WLED firmware because of all the extras, but have had a bad experience over WiFi because of the long delay, then I recommend the ESP32 variant with built-in LAN connection. 
