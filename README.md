@@ -170,7 +170,6 @@ RGB LED lamps/bulbs that are registered under Home Assistant can also be set as 
 
 ![LED-Controller Home Assistant](https://github.com/user-attachments/assets/3d4ea236-f9d2-4666-a0d4-5ce34706da94)
 
-https://github.com/satgit62/hyperion.ng-webos-loader
 
 # Controller Type Home Assistant HyperHDR
 
