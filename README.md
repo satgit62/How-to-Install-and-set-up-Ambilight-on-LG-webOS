@@ -107,13 +107,33 @@ For newer devices with the "QUIRK_DILE_VT_DUMP_LOCATION_2" option switched on (e
 
 # HyperHDR/Hyperion.NG
 
-HyperHDR is an offshoot of Hyperion. To realize Ambilight on LG TVs, you need either Hyperion.NG or HyperHDR in addition to PicCap. Both versions of Hyperion are similar in structure and operation, and each has its own special features. And as always, there are advantages and disadvantages. It also depends on which LED controller you want to use. If you want to use LED controllers such as HyperSerial, HyperSerialPico on RP2040 or HyperSerial with WLED on ESP32, and you value HDR content, you should use HyperHDR. For LED controllers with WLED firmware on ESP8266/ESP32, you can use Hyperion.NG. Both solutions support the most common RGB/W LEDs. However, as there are also exotic RGB illuminations, you can find out more on the GitHub page.
+HyperHDR is an offshoot of Hyperion. To realize Ambilight on LG TVs, you need either Hyperion.NG or HyperHDR in addition to PicCap. Both versions of Hyperion are similar in structure and operation, and each has its own special features. And as always, there are advantages and disadvantages. It also depends on which LED controller you want to use. 
+
+If you want to use LED controllers such as HyperSerial, HyperSerialPico on RP2040 or HyperSerial with WLED on ESP32, and you value HDR content, you should use HyperHDR. For LED controllers with WLED firmware on ESP8266/ESP32, you can use Hyperion.NG. Both solutions support the most common RGB/W LEDs. However, as there are also exotic RGB illuminations, you can find out more on the GitHub page.
+
+Both HyperHDR and Hyperion.NG currently support the NV12 video format and direct processing of YUV colour spaces. (YUV colour spaces offer more efficient encoding and reduce bandwidth more than RGB capture).
+HyperHDR uses LUT tables that can be calibrated for different video content such as SDR, HDR and Dolby Vision to achieve fine-grained colour reproduction.
+Hyperion.NG uses its own algorithm and does not require external LUT tables, but calculates an average value that should be suitable for all content.
 
 HyperHDR: https://github.com/awawa-dev/HyperHDR
 Hyperion.NG: https://github.com/hyperion-project/hyperion.ng
 
 Install and start HyperHDR or Hyperion.NG via the Homebrew Channel or using the webOS Device Manager. 
 Switch on Autostart and start the daemon service. Reboot the TV.
+
+# Attention Hyperion.NG users
+
+If the Hyperion.NG daemon does not start or stops on devices with webOS 7 and higher, this may be due to a missing library (libcrypt).
+In this case, you can create a symlink to the missing library.
+Enter the following command in SSH/Terminal:
+```
+ln -s /usr/lib/libcrypt.so.2 /media/developer/apps/usr/palm/services/org.webosbrew.hyperion.ng.loader.service/hyperion/libcrypt.so.1
+```
+It should then look like the picture.
+
+![1](https://github.com/user-attachments/assets/6824ab03-05de-4b57-987c-821165002feb)
+
+
 Since HyperHDR is a fork of Hyperion and has a similar structure, I will use HyperHDR for the examples here. Please use either HyperHDR or Hyperion.NG.
 
 Once the HyperHDR daemon service is successfully started, open a browser of your choice (Chrome, Mozilla Firefox or Microsoft Edge) on your PC, tablet or cell phone and access the web interface of HyperHDR or Hyperion.NG under the IP address of your TV with port 8090 (e.g. 192.168.xxx.x:8090) to make the necessary settings.
