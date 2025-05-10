@@ -134,7 +134,9 @@ It should then look like the picture.
 ![1](https://github.com/user-attachments/assets/6824ab03-05de-4b57-987c-821165002feb)
 
 
-Since HyperHDR is a fork of Hyperion and has a similar structure, I will use HyperHDR for the examples here. Please use either HyperHDR or Hyperion.NG.
+Since HyperHDR is a fork of Hyperion and has a similar structure, I will use HyperHDR for most of the examples here.
+ 
+Some menus will only be accessible in Hyperion.NG if you set the user to Expert. This ensures that you can reach all levels of the menus.
 
 Once the HyperHDR daemon service is successfully started, open a browser of your choice (Chrome, Mozilla Firefox or Microsoft Edge) on your PC, tablet or cell phone and access the web interface of HyperHDR or Hyperion.NG under the IP address of your TV with port 8090 (e.g. 192.168.xxx.x:8090) to make the necessary settings.
 
