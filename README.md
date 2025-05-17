@@ -228,6 +228,9 @@ Attention! There are also ESP32 with CH341 or CP210x which allow higher data rat
 So you have to install it on the device first, depending on the kernel architecture.
 Download and instructions can be found at: https://github.com/throwaway96/webos-kernel-drivers
 
+# Note
+The ESP32 S2 Mini and the RP2040 do not require any additional kernel drivers as they are recognized by the system.
+
 Kompatibler HyperSerialPico-Controller:
 https://github.com/awawa-dev/HyperHDR/discussions/561
 Kompatibler WLED-Controller:
