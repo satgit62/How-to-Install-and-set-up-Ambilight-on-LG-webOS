@@ -108,7 +108,7 @@ For newer devices with the "QUIRK_DILE_VT_DUMP_LOCATION_2" option switched on (e
 # Known capture errors of PicCap/Hyperion-WebOS:
 
 As “AI Picture Pro” and the “Game Mode” option from LG use the same capture process as hyperion-webos, there may be dropouts during capture. As a result, no live preview in HyperHDR is possible for a short time and the LEDs also switch off for a short time. The solution is to switch off these options.
-This bug was discovered by Discord user @James Sunderland.
+This bug was discovered by Discord user @James Sunderland. Siehe:https://github.com/webosbrew/hyperion-webos/issues/137
 
 
 # HyperHDR/Hyperion.NG
