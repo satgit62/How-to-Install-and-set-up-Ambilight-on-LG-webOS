@@ -105,6 +105,12 @@ For newer devices with the "QUIRK_DILE_VT_DUMP_LOCATION_2" option switched on (e
 ![Quick Media Switching](https://github.com/user-attachments/assets/0c7a3af1-cbe2-41cf-862b-32bf646ed917)
 
 
+# Known capture errors of PicCap/Hyperion-WebOS:
+
+As “AI Picture Pro” and the “Game Mode” option from LG use the same capture process as hyperion-webos, there may be dropouts during capture. As a result, no live preview in HyperHDR is possible for a short time and the LEDs also switch off for a short time. The solution is to switch off these options.
+This bug was discovered by Discord user @James Sunderland.
+
+
 # HyperHDR/Hyperion.NG
 
 HyperHDR is an offshoot of Hyperion. To realize Ambilight on LG TVs, you need either Hyperion.NG or HyperHDR in addition to PicCap. Both versions of Hyperion are similar in structure and operation, and each has its own special features. And as always, there are advantages and disadvantages. It also depends on which LED controller you want to use. 
