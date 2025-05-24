@@ -107,7 +107,7 @@ For newer devices with the "QUIRK_DILE_VT_DUMP_LOCATION_2" option switched on (e
 
 # Known capture errors of PicCap/Hyperion-WebOS:
 
-As “AI Picture Pro”, “AI Brightness”, “AI Genre Selection” and LG's “Game Mode” option use the same recording process as hyperion-webos, there may be dropouts during recording. As a result, no live preview in HyperHDR is possible for a short time and the LEDs also switch off briefly. The solution is to disable these options. (can be found under Settings > General > AI Service).
+As LG's “AI Picture Pro”, “AI Brightness”, “AI Genre Selection” and "AI Image Game Optimizer", "AI Game Sound" option use the same recording process as hyperion-webos, there may be dropouts during recording. As a result, no live preview in HyperHDR is possible for a short time and the LEDs also switch off briefly. The solution is to disable these options. (can be found under Settings > General > AI Service).
 This bug was discovered by Discord user @James Sunderland. See:https://github.com/webosbrew/hyperion-webos/issues/137
 
 
