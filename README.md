@@ -621,36 +621,6 @@ https://github.com/TBSniller/piccap/releases/download/0.5.1/org.webosbrew.piccap
 For those who are always not satisfied with the colour rendering of their LEDs, the ultimate colour matching should be done using different LUT's for SDR, HDR and Dolby Vision.
 See: https://github.com/satgit62/Ultimate-HyperHDR-Ambilight-fine-tuning-experience-for-LG-webOS-with-new-LUT-calibration-
 
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-
-	var back_to_top_button = ['<a href="#top" class="back-to-top">Nach oben</a>'].join("");
-	$("body").append(back_to_top_button)
-
-	$(".back-to-top").hide();
-
-	$(function () {
-		$(window).scroll(function () {
-			if ($(this).scrollTop() > 100) {
-				$('.back-to-top').fadeIn();
-			} else {
-				$('.back-to-top').fadeOut();
-			}
-		});
-
-		$('.back-to-top').click(function () { 
-			$('body,html').animate({
-				scrollTop: 0
-			}, 800);
-			return false;
-		});
-	});
-
-});
-</script>
-
-
 
 
 
