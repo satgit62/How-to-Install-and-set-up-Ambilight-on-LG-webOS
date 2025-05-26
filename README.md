@@ -523,7 +523,15 @@ For devices larger than 65 inch televisions, a third power injection for the LED
 ![LED 4 Seitige Aufbau HyperSerialPico](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/70693991-ed28-4208-94d0-e0c9541de007)
 ![Adafruit Feather Scorpio Pinout](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/8d661a6d-1521-48a4-83e0-5c4e370307b1)
 
+# RP2040 LED-Controller:
+
+Important! For the RP2040 controller with HyperSerialPico, please look for the correct DATA line output. Depending on the type, with built-in level shifter or without, there are different GPIO assignments for DATA.
+The right place to go for the firmware is: https://github.com/awawa-dev/HyperSerialPico, https://github.com/awawa-dev/HyperSerialPico/releases and for the description of the compatible hardware and pin output is: https://github.com/awawa-dev/HyperHDR/discussions/561
+
+
 # ESP 8266 Wemos D1 Mini with level shifter:
+
+Works with both WLED and HyperSerial. Please note that a kernel driver may need to be installed on LG.
 
 ![Level Shifter](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/179cb14f-6244-40e7-987e-8d7b2d589d50)
 
@@ -533,16 +541,20 @@ For devices larger than 65 inch televisions, a third power injection for the LED
 
 # ESP32 with level shifter:
 
+ESP32 S2 Mini (Lolin) Only HyperSerial
+
 ![ESP32 S2 Mini Lolin](https://github.com/user-attachments/assets/ccad4b26-c770-44cd-92d3-ec945ca9e380)
+
+# ESP32 with level shifter:
+
+Works with WLED. ESP32 Models with a faster serial chip such as the CH340G and CH9102x can also be operated with HyperSerial. Please note that a kernel driver must be installed on LG for this.
 
 ![WLED+Netztteil und Level Shifter](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/591438fb-5e3d-4086-bf6a-c1018d293832)
 
-# RP2040 LED-Controller:
-
-Important! For the RP2040 controller with HyperSerialPico, please look for the correct DATA line output. Depending on the type, with built-in level shifter or without, there are different GPIO assignments for DATA.
-The right place to go for the firmware is: https://github.com/awawa-dev/HyperSerialPico, https://github.com/awawa-dev/HyperSerialPico/releases and for the description of the compatible hardware and pin output is: https://github.com/awawa-dev/HyperHDR/discussions/561
 
 # ESP32 Self-built WLED controller with LAN interface (WT32-ETH01) and level shifter:
+
+Only WLED
 
 If you prefer to buy and set up the LAN-ESP32 “WT32-ETH01” yourself, you should also bear in mind that a TTL-to-USB adapter is required for the software flashing. In addition, a level shifter should definitely be integrated to prevent the ESP from being destroyed or experiencing unwanted flashes or effects.
  
