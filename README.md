@@ -640,10 +640,9 @@ Version 0.5.1 of PicCap with the new NV12 backends has been released. YUV422 to 
 
 https://github.com/TBSniller/piccap/releases/download/0.5.1/org.webosbrew.piccap_0.5.1_all.ipk
 
-# NOTE
+# A very important note regarding the colour rendering of the LEDs when using HyperHDR:
 
-For those who are always not satisfied with the colour rendering of their LEDs, the ultimate colour matching should be done using different LUT's for SDR, HDR and Dolby Vision.
-See: https://github.com/satgit62/Ultimate-HyperHDR-Ambilight-fine-tuning-experience-for-LG-webOS-with-new-LUT-calibration-
+If you are not always satisfied with the colour rendering of your LEDs, you should make the ultimate colour adjustment using different LUTs for SDR, HDR and Dolby Vision. See: https://github.com/satgit62/Ultimate-HyperHDR-Ambilight-fine-tuning-experience-for-LG-webOS-with-new-LUT-calibration-
 
 
 
