@@ -19,7 +19,19 @@ The settings for Hyperion.NG users are similar to HyperHDR, with the difference 
 3. switch on Block System Updates
 4. switch off failsafe mode 
 5. reboot system to apply (perform reboot)
-6. ![Homebrew Channel Settings](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/e7323b74-5cca-4db1-80a0-ae7ab149c2ef)
+ ![Homebrew Channel Settings](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/e7323b74-5cca-4db1-80a0-ae7ab149c2ef)
+
+# Requirements for Ambilight
+To set up Ambilight on your rooted LG TV, you will need PicCap, HyperHDR, or Hyperion.NG, as well as LEDs, a power supply for the LEDs, and an LED controller.
+You can purchase a ready-made LED controller with pre-installed WLED firmware (either WLAN or LAN) or build your own. In the hardware section, there is a selection of ready-made LED controllers.
+
+I recommend an LED controller with HyperSerialPico firmware on an RP2040 with an integrated level shifter, or HyperSerial firmware on an ESP32/S2 mini. However, you will have to build this alternative yourself. See the Hardware section.
+The RP2040 with HyperSerialPico firmware is a reliable LED controller for transmitting and displaying data and colors.
+Its high-speed serial controller achieves a baud rate of 5,000,000 via LG's USB port, ensuring there are no transmission errors or timeouts.
+
+You should also consider the ESP32 S2 Mini (CDC: 5 MB/s) with HyperSerial. Like the RP2040, it connects via the USB port and does not require a special kernel driver on the LG.
+The ESP32 MH-ET Live (CP2104 or CH9102x: 4 Mbps) also works with HyperSerial; however, the appropriate kernel driver must be installed. Therefore, make sure there is a driver for your device. See https://github.com/throwaway96/webos-kernel-drivers.
+
 
 # PicCap
 
