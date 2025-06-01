@@ -530,7 +530,7 @@ Output is: CL (clock) and DA (data) connector.
 # RP2040 Adalight Feather Scorpio mit Level Shifter Ausgang GPIO 16.
 For devices larger than 65 inch televisions, a third power injection for the LEDs in the center is required.
 
-![Adafruit Feather RP2040 Scorpio1](https://github.com/user-attachments/assets/e640cb4e-0a4d-4ca1-982f-61f3e77e1066)
+![1](https://github.com/user-attachments/assets/1de3c56a-c1ad-44d2-8e04-7048fdebf68d)
 
 ![LED 4 Seitige Aufbau HyperSerialPico](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/70693991-ed28-4208-94d0-e0c9541de007)
 ![Adafruit Feather Scorpio Pinout](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/8d661a6d-1521-48a4-83e0-5c4e370307b1)
