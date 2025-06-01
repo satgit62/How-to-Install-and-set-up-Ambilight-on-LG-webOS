@@ -607,6 +607,8 @@ For quick connections, you can use “Fast Wire Connector Push-in Electrical Ter
 
 # LEDs
 
+![1](https://github.com/user-attachments/assets/3533ce20-fb22-4196-ad9c-7d091fb60291)
+
 Since the SK6812 RGBW has an additional white channel (RGB white + white) compared to the WS2812, which only has RGB, is of course better than the WS2812, but this must be taken into account in the LED calculator. 
 
 ![SK6812 RGB White + White](https://github.com/user-attachments/assets/238ee2d3-dbaa-47ee-a90b-91a15a401b8d)
