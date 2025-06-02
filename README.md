@@ -125,7 +125,8 @@ This bug was discovered by Discord user @James Sunderland. See:https://github.co
 
 # HyperHDR/Hyperion.NG
 
-HyperHDR is an offshoot of Hyperion. To realize Ambilight on LG TVs, you need either Hyperion.NG or HyperHDR in addition to PicCap. Both versions of Hyperion are similar in structure and operation, and each has its own special features. And as always, there are advantages and disadvantages. It also depends on which LED controller you want to use. 
+HyperHDR is an open-source implementation of ambient lighting for television and music devices that is based on the analysis of video and audio streams and has a similar structure to Hyperion.NG.
+To realize Ambilight on LG TVs, you need either Hyperion.NG or HyperHDR in addition to PicCap. Both versions of Hyperion are similar in structure and operation, and each has its own special features. And as always, there are advantages and disadvantages. It also depends on which LED controller you want to use.
 
 If you want to use LED controllers such as HyperSerial, HyperSerialPico on RP2040 or HyperSerial with WLED on ESP32, and you value HDR content, you should use HyperHDR. For LED controllers with WLED firmware on ESP8266/ESP32, you can use Hyperion.NG. Both solutions support the most common RGB/W LEDs. However, as there are also exotic RGB illuminations, you can find out more on the GitHub page.
 
