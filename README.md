@@ -277,6 +277,7 @@ Attention, the RGB byte sequence must be set to GRB.
 
 ![Hyperion NG sk68_ftdiI](https://github.com/user-attachments/assets/255973c7-2b6f-4be0-94e6-b01b2334dce6)
 
+A current webOS version of Hyperion.NG (2.0.17-beta.3) with the latest changes can be found under the following download link: https://github.com/satgit62/satgit62.github.io/releases/download/v0.2.0-alpha/org.webosbrew.hyperion.ng.loader_0.1.13_all.ipk.
 
 
 # Controller type Skydimo
