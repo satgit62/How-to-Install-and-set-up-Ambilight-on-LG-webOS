@@ -221,7 +221,7 @@ RGB LED lamps/bulbs that are registered under Home Assistant can also be set as 
 For the Home Assistant settings, follow the instructions on GitHub: https://github.com/awawa-dev/HyperHDR/pull/1014
 
 
-# Controller Type FTDI
+# Controller Type FTDI-FT232H
 
 The FTDI LED controller does not require any firmware or special kernel drivers and is automatically recognised by the system as an 'FTDI Serial Device Converter (ttyUSB0)'.
 
