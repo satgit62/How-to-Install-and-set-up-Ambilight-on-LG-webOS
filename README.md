@@ -702,6 +702,9 @@ If you do not have the possibility to solder the LED segments together with sili
 
 ![LED Corner](https://github.com/user-attachments/assets/e4525a8c-7231-4cee-9a02-662ce80cb4e9)
 
+Amefil 3 Pin CCT Extension Connector Cable Suitable for 10mm CCT COB LED Strip,  This is ideal for connecting LED segments to each other, as well as for use as an end piece with a cable connector for the power supply.
+
+![LED-Strip Cable Connector](https://github.com/user-attachments/assets/23c6c83a-085b-4379-b846-02611ec3a312)
 
 
 # Note
