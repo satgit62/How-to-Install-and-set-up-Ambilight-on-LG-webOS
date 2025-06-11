@@ -604,6 +604,7 @@ AD1 →    DATA
 FTDI  |  APA102
 AD0 →    CLK
 AD1 →    DATA
+GND →    GND (-5 Volt)
 ```  
 ![FTDI-wiring](https://github.com/user-attachments/assets/50bd42ee-b33a-412b-a3a9-49beee115c14)
 
