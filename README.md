@@ -230,6 +230,7 @@ The FTDI LED controller does not require any firmware or special kernel drivers 
 The FTDI-FT232H LED controller is supported by HyperHDR using the newly developed SPI_FTDI driver from @awawa-dev. Hyperion.NG also offers FTDI support from @nurikk. So you can decide for yourself which version you want to use.
 
 HyperHDR
+
 Select the appropriate controller in the HyperHDR LED hardware menu under “SPI_FTDI”. An example of this is SK6812spi for RGBW LEDs.
 Attention, the RGB byte sequence must be set to GRB.
 Under SPI Path you must select your “libFTDI SPI device location”.
