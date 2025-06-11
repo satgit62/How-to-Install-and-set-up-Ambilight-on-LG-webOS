@@ -221,6 +221,55 @@ RGB LED lamps/bulbs that are registered under Home Assistant can also be set as 
 For the Home Assistant settings, follow the instructions on GitHub: https://github.com/awawa-dev/HyperHDR/pull/1014
 
 
+# Controller Type FTDI
+
+The FTDI LED controller does not require any firmware or special kernel drivers and is automatically recognised by the system as an 'FTDI Serial Device Converter (ttyUSB0)'.
+
+![FTDI FT232H ttyUSB0](https://github.com/user-attachments/assets/b773202c-9aa8-4071-a016-118e7eb53425)
+
+The FTDI-FT232H LED controller is supported by HyperHDR using the newly developed SPI_FTDI driver from @awawa-dev. Hyperion.NG also offers FTDI support from @nurikk. So you can decide for yourself which version you want to use.
+
+HyperHDR
+Select the appropriate controller in the HyperHDR LED hardware menu under “SPI_FTDI”. An example of this is SK6812spi for RGBW LEDs.
+Attention, the RGB byte sequence must be set to GRB.
+Under SPI Path you must select your “libFTDI SPI device location”.
+The baud rate can be set from 3000000 to 3200000.
+Under White LED algorithm select the White channel calibration (RGBW only) for SK6812 RGBW LEDs.
+If you have SK6812RGBW CW LEDs, leave the RGB/White channel aspect at 255.
+When using SK6812RGBW NW LEDs, you must set the Blue channel down to 160 for white balance.
+The White channel limit can also be gradually reduced to 70%.
+
+![SPI_FTDI](https://github.com/user-attachments/assets/6df95af7-1245-4e1f-9be6-711058f98e12)
+
+![Led Controller SK6812 SPI](https://github.com/user-attachments/assets/cb8a5a91-b0db-4d3b-885d-f5aaa5fb2c90)
+
+![White Channel calibration](https://github.com/user-attachments/assets/981c085d-d6a2-44da-9210-284dba9da214)
+
+![White LED algorithm](https://github.com/user-attachments/assets/2c14d177-8c7b-4f0a-8c5a-21a3960d5ea2)
+
+![Performance](https://github.com/user-attachments/assets/2385e37e-4e71-4974-bc7f-69db09ace2d2)
+
+Attention! The official HyperHDR version of the Homebrew Channel does not support SPI_FTDI. You must therefore use a version of mine specially adapted for webOS. In addition to the FTDI drivers, this version also contains the LUT tables required for using the NV12 option, which can be installed via the loader menu. 
+Download link:https://github.com/satgit62/satgit62.github.io/releases/download/v0.2.0-alpha/org.webosbrew.hyperhdr.loader_0.2.6_all.ipk
+
+Hyprion.NG
+
+Select the appropriate controller in the Hyperion.NG LED hardware menu under USB/FTDI, your LEDs accordingly, for example SK6812.
+Under Output path you must select your “FTDI Single RS232-HS” device.
+The baud rate can be set to 3200000.
+Under White LED algorithm, select a suitable algorithm for your LEDs, such as Neutral White, Cold White or White off.
+Attention, the RGB byte sequence must be set to GRB.
+
+![Hyperion NG FTDI](https://github.com/user-attachments/assets/a3ead4e1-1dff-4f80-a4df-5d532f6568c5)
+
+![Hyperion NG FTDI 1](https://github.com/user-attachments/assets/340f3961-bc45-4bfe-b111-aedc5bb0ad81)
+
+![Hyperion NG White LED algorithm](https://github.com/user-attachments/assets/7a6030a0-b304-40f0-a07a-eb2dba03a547)
+
+![Hyperion NG sk68_ftdiI](https://github.com/user-attachments/assets/255973c7-2b6f-4be0-94e6-b01b2334dce6)
+
+
+
 # Controller type Skydimo
 
 Three-sided Ambilight for LG monitors or devices up to max 42"~48”
@@ -254,7 +303,6 @@ Kompatibler HyperSerialPico-Controller:
 https://github.com/awawa-dev/HyperHDR/discussions/561
 Kompatibler WLED-Controller:
 https://kno.wled.ge/basics/compatible-controllers/
-
 
 
 # LED Layout
@@ -540,6 +588,23 @@ For devices larger than 65 inch televisions, a third power injection for the LED
 
 Important! For the RP2040 controller with HyperSerialPico, please look for the correct DATA line output. Depending on the type, with built-in level shifter or without, there are different GPIO assignments for DATA.
 The right place to go for the firmware is: https://github.com/awawa-dev/HyperSerialPico, https://github.com/awawa-dev/HyperSerialPico/releases and for the description of the compatible hardware and pin output is: https://github.com/awawa-dev/HyperHDR/discussions/561
+
+
+# FTDI-FT232H LED controller.
+If you're looking for a simple solution, check out this controller. It doesn't require any firmware or a level shifter, and it can control both RGB and RGBW LEDs. Connecting it to the LEDs is also very simple.
+For SK6812 RGBW and WS2812B LEDs, connect the AD1 output of the FTDI to the DATA input of the LEDs and the GND output to the -5V GND input of the LEDs.
+For APA102 (SPI) LEDs, connect the AD1 output of the FTDI to the data input of the LED and the AD0 output to the clock input of the LEDs. Additionally, connect the FTDI's GND output to the LEDs' -5V GND input.
+The controller is powered by the TV via USB.
+HyperHDR and FTDI communicate losslessly via the TV's USB port at a baud rate of 3,2 MB, so a network connection is not required.
+
+```
+FTDI  |  SK6812RGBW/WS2812b
+AD1 →    DATA
+FTDI  |  APA102
+AD0 →    CLK
+AD1 →    DATA
+```  
+![FTDI-wiring](https://github.com/user-attachments/assets/50bd42ee-b33a-412b-a3a9-49beee115c14)
 
 
 # ESP 8266 Wemos D1 Mini with level shifter:
