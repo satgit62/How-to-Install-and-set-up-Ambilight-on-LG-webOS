@@ -229,7 +229,7 @@ The FTDI LED controller does not require any firmware or special kernel drivers 
 
 The FTDI-FT232H LED controller is supported by HyperHDR using the newly developed SPI_FTDI driver from @awawa-dev. Hyperion.NG also offers FTDI support from @nurikk. So you can decide for yourself which version you want to use.
 
-HyperHDR
+# HyperHDR FTDI
 
 Select the appropriate controller in the HyperHDR LED hardware menu under “SPI_FTDI”. An example of this is SK6812spi for RGBW LEDs.
 Attention, the RGB byte sequence must be set to GRB.
@@ -261,7 +261,11 @@ LUT loader menu
 Download link: 
 https://github.com/satgit62/satgit62.github.io/releases/download/v0.2.0-alpha/org.webosbrew.hyperhdr.loader_0.2.6_all.ipk
 
-Hyprion.NG
+# Hyprion.NG FTDI
+
+The FTDI LED controller does not require any firmware or special kernel drivers and is automatically recognised by the system as an 'FTDI Serial Device Converter (ttyUSB0)'.
+
+![FTDI FT232H ttyUSB0](https://github.com/user-attachments/assets/b773202c-9aa8-4071-a016-118e7eb53425)
 
 Select the appropriate controller in the Hyperion.NG LED hardware menu under USB/FTDI, your LEDs accordingly, for example SK6812.
 Under Output path you must select your “FTDI Single RS232-HS” device.
