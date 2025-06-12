@@ -261,7 +261,9 @@ LUT loader menu
 Download link: 
 https://github.com/satgit62/satgit62.github.io/releases/download/v0.2.0-alpha/org.webosbrew.hyperhdr.loader_0.2.6_all.ipk
 
-# Hyprion.NG FTDI
+# Hyperion.NG FTDI
+
+The FTDI-FT232H LED controller was implemented in Hyperion NG thanks to the support of @nurikk.
 
 The FTDI LED controller does not require any firmware or special kernel drivers and is automatically recognised by the system as an 'FTDI Serial Device Converter (ttyUSB0)'.
 
