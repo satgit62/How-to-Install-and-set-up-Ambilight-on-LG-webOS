@@ -177,10 +177,10 @@ CH340 Drivers for Windows, and Mac see: https://www.wemos.cc/en/latest/ch340_dri
 
 Various kernel drivers for LG webOS can be found at:https://github.com/throwaway96/webos-kernel-drivers
 
+# Controller udpraw Protocol for WLED
+
 You can select WLED under LED controller, but in conjunction with some ESP versions, the LEDs were not switched off when the TV was switched off. 
 So I prefer here as controller type: udpraw, RGB byte order: RGB, update time 0, target IP: IP address of your ESP/WLED and port: 19446.
-
-# Controller udpraw Protocol for WLED
 
 ![udp raw](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/77f1c58c-c5c2-47c8-bb57-6eda23c6328a)
 
