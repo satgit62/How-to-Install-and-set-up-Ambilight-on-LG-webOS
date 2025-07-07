@@ -637,6 +637,9 @@ GND →    GND (-5 Volt)
 ```  
 ![FTDI-wiring](https://github.com/user-attachments/assets/50bd42ee-b33a-412b-a3a9-49beee115c14)
 
+# GLEDOPTO GL-C-016WL
+
+![GLEDOPTO ESP32 Diagram](https://github.com/user-attachments/assets/09aef7bc-6a9a-4837-a80a-ae6a77307cdb)
 
 # ESP 8266 Wemos D1 Mini with level shifter:
 
