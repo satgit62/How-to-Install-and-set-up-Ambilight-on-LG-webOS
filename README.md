@@ -498,7 +498,7 @@ The set is completely pre-configured and ready for connection up to a current co
 The GLEDOPTO Model No. GL-C-016WL is a fully configured LED controller based on the latest ESP32 chipset and equipped with the WLED firmware. The improved terminal blocks facilitate wiring and installation. It is designed for an input voltage of 5-24 V DC and a maximum total current of 15 A. It has both quick-connect terminals and the standardized DC socket with the dimensions 5.5 x 2.1 mm for the power supply input.
 Two GPIOs are available above the terminal strip for controlling data and clock. V+ and V-(GND) are used to supply power to the LEDs. This means that one LED strip (1 segment) and a second LED strip can be used as a second segment with just one data line, as is the case with the SK6812RGBW or WS2812B models. In addition, LED strips that require both data and CLK can also be used, for example APA120.
 If required, the built-in microphone synchronizes the lights with the music rhythm, creating an impressive audio-video experience.
-The exposed type C UART interface has been improved, making it easier to carry out firmware updates.
+The exposed USB type C UART interface has been improved, making it easier to carry out firmware updates.
 Suitable power supply units and accessories can be found below.
 
 ![Gledopto ESP32 UART](https://github.com/user-attachments/assets/d48ae38f-7560-4deb-80e7-acefd71d29c6)
