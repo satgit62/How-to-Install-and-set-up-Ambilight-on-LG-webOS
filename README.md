@@ -105,7 +105,7 @@ You can use the “top” command in Terminal/SSH to see what memory and CPU loa
 
 Depending on which backend your TV model uses for recording, you must set the correct QUIRK option. See: https://github.com/webosbrew/hyperion-webos#quirks.
 
-![PicCap Service Advanced Service](https://github.com/user-attachments/assets/d67762e5-25b9-4945-bc80-2d6e71cdcf18)
+<img width="1471" height="844" alt="11" src="https://github.com/user-attachments/assets/e608598e-baa7-44f7-9739-40411045e7d0" />
 
 By switching on the "QUIRK_DILE_VT_DUMP_LOCATION_2" options, the delay of the LEDs is also reduced to a minimum.
 
