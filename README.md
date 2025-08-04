@@ -628,6 +628,8 @@ For APA102 (SPI) LEDs, connect the AD1 output of the FTDI to the data input of t
 The controller is powered by the TV via USB.
 HyperHDR and FTDI communicate losslessly via the TV's USB port at a baud rate of 3,2 MB, so a network connection is not required.
 
+To prevent unwanted flickering or flashing of the LEDs, a resistor between 47 and 470 ohms can be installed in the data line.
+
 ```
 FTDI  |  SK6812RGBW/WS2812b
 AD1 →    DATA
@@ -635,8 +637,11 @@ FTDI  |  APA102
 AD0 →    CLK
 AD1 →    DATA
 GND →    GND (-5 Volt)
-```  
-![FTDI-wiring](https://github.com/user-attachments/assets/50bd42ee-b33a-412b-a3a9-49beee115c14)
+```
+
+<img width="1075" height="548" alt="FTDI" src="https://github.com/user-attachments/assets/2aa3d7e0-57d5-4790-aaa5-8bc48191d66f" />
+
+
 
 # GLEDOPTO GL-C-016WL
 
