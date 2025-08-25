@@ -157,6 +157,8 @@ Since HyperHDR is a fork of Hyperion and has a similar structure, I will use Hyp
  
 Some menus will only be accessible in Hyperion.NG if you set the user to Expert. This ensures that you can reach all levels of the menus.
 
+# Settings HyperHDR/Hyperion.NG
+
 Once the HyperHDR daemon service is successfully started, open a browser of your choice (Chrome, Mozilla Firefox or Microsoft Edge) on your PC, tablet or cell phone and access the web interface of HyperHDR or Hyperion.NG under the IP address of your TV with port 8090 (e.g. 192.168.xxx.x:8090) to make the necessary settings.
 
 ![HyperHDR Web Configuration](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/aabea194-8a85-43f9-9e59-b69270235baa)
