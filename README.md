@@ -524,6 +524,8 @@ As the current limit of USB 3 on LG is limited to 0.9A and the Skydimo has no po
 
 ![Skydimo Version](https://github.com/user-attachments/assets/e37998d0-ebe4-4c64-88fc-b843b403af3e)
 
+<img width="448" height="463" alt="1" src="https://github.com/user-attachments/assets/0df08bec-eb4b-4f0d-85ad-66c63700ed4e" />
+
 ![USB 3 0 Y power supply cable](https://github.com/user-attachments/assets/a87ad4d3-9c23-4387-bf8c-bccdabe731e2)
 
 
