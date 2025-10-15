@@ -460,6 +460,17 @@ The log level debug can be set under the “Logging” menu.
 
 ![General settings](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/3441e160-91d8-4275-b736-356acdd6b109)
 
+
+# An important note regarding the color reproduction of LEDs when using Standard HyperHDR from the Homebrew Channel:
+
+Since only a full 150 MB LUT and an incomplete 50 MB flat LUT are installed in the standard version of HyperHDR—the latter of which is no longer supported by the developer—HyperHDR can no longer distinguish between the different video formats (SDR, HDR, and Dolby Vision). As a result, only one color palette is loaded for all video content, meaning that the LEDs do not necessarily correspond to reality.
+
+If you are not satisfied with the color reproduction of your LEDs and are striving for perfection, you should perform a final color adjustment with different LUTs for SDR, HDR, and Dolby Vision.
+
+I have customized the current HyperHDR webOS version with the necessary LUT tables, which can be found at: https://github.com/satgit62/Ultimate-HyperHDR-Ambilight-fine-tuning-experience-for-LG-webOS-with-new-LUT-calibration-
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Important note when using WLED/ESP32 Controller
 
 WLED has limited its automatic brightness limiter to 850mA in the LED standard setting for safety reasons.
@@ -485,15 +496,6 @@ If the connection between WLED and router is interrupted, select under WiFi Sett
 ![WI-FI](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/e1578c44-f8a6-465a-921f-73cbe776966d)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-# An important note regarding the color reproduction of LEDs when using Standard HyperHDR from the Homebrew Channel:
-
-Since only a full 150 MB LUT and an incomplete 50 MB flat LUT are installed in the standard version of HyperHDR—the latter of which is no longer supported by the developer—HyperHDR can no longer distinguish between the different video formats (SDR, HDR, and Dolby Vision). As a result, only one color palette is loaded for all video content, meaning that the LEDs do not necessarily correspond to reality. 
-
-If you are not satisfied with the color reproduction of your LEDs and are striving for perfection, you should perform a final color adjustment with different LUTs for SDR, HDR, and Dolby Vision.
-
-I have customized the current HyperHDR webOS version with the necessary LUT tables, which can be found at:
-https://github.com/satgit62/Ultimate-HyperHDR-Ambilight-fine-tuning-experience-for-LG-webOS-with-new-LUT-calibration-
 
 # Hardware and wiring diagram:
 
