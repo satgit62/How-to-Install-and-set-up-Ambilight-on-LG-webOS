@@ -87,7 +87,6 @@ Do not enable the **NV12** option in the standard version of HyperHDR from the H
 Please note that additional steps are required to use the **NV12** option. 
 The 50 MB **flat_lut_lin_tables.3d** LUT from ```/media/developer/apps/usr/palm/services/org.webosbrew.hyperhdr.loader.service/hyperhdr/``` has an invalid size to work with NV12 and must be deleted.
 For best results, you will also need different LUT files for different video content (**SDR**, **HDR** and **Dolby Vision**).
-See another tutorial of mine: https://github.com/satgit62/Ultimate-HyperHDR-Ambilight-fine-tuning-experience-for-LG-webOS-with-new-LUT-calibration-
 
 If you have a device with low CPU/memory power, I recommend using a lower resolution (256 × 144) at 30 fps instead of 60 fps and reducing the Hyperion priority from 150 to 100 if the device allows it. You can also deactivate the ‘Graphical Capture Backend’ to reduce the delay and save device resources. Positive effect: You can achieve more FPS if you deactivate UI Capture. Compare the images.
 
@@ -260,8 +259,6 @@ LUT loader menu
 
 ![2](https://github.com/user-attachments/assets/38d05b3c-9031-4fe3-9552-ad4decedc631)
 
-Download link: 
-https://github.com/satgit62/satgit62.github.io/releases/download/v0.2.0-alpha/org.webosbrew.hyperhdr.loader_0.2.6_all.ipk
 
 # Hyperion.NG FTDI
 
