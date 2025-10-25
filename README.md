@@ -456,11 +456,8 @@ The log level debug can be set under the “Logging” menu.
 
 Since only a full 150 MB LUT and an incomplete 50 MB flat LUT are installed in the standard version of HyperHDR—the latter of which is no longer supported by the developer—HyperHDR can no longer distinguish between the different video formats (SDR, HDR, and Dolby Vision). As a result, only one color palette is loaded for all video content, meaning that the LEDs do not necessarily correspond to reality.
 
-If you are not satisfied with the color reproduction of your LEDs and are striving for perfection, you should perform a final color adjustment with different LUTs for SDR, HDR, and Dolby Vision.
+If you are not satisfied with the color reproduction of your LEDs and are striving for perfection, you should perform a final color adjustment with different LUTs for SDR, HDR, and Dolby Vision
 
-I have customized the current HyperHDR webOS version with the necessary LUT tables, which can be found at: https://github.com/satgit62/Ultimate-HyperHDR-Ambilight-fine-tuning-experience-for-LG-webOS-with-new-LUT-calibration-
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Important note when using WLED/ESP32 Controller
 
