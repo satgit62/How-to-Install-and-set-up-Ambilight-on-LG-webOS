@@ -251,13 +251,7 @@ The White channel limit can also be gradually reduced to 70%.
 
 ![Performance](https://github.com/user-attachments/assets/2385e37e-4e71-4974-bc7f-69db09ace2d2)
 
-Attention! The official HyperHDR version of the Homebrew Channel does not support SPI_FTDI. You must therefore use a version of mine specially adapted for webOS. In addition to the FTDI drivers, this version also contains the LUT tables required for using the NV12 option, which can be installed via the loader menu.
-
-LUT loader menu
-
-![1](https://github.com/user-attachments/assets/386263c1-b694-40ef-aaf8-b3de9da8fd6d)
-
-![2](https://github.com/user-attachments/assets/38d05b3c-9031-4fe3-9552-ad4decedc631)
+Attention! The official HyperHDR version of the Homebrew Channel does not currently support SPI_FTDI. You must therefore use a version specially adapted for webOS. 
 
 
 # Hyperion.NG FTDI
