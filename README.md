@@ -747,13 +747,6 @@ For a helpful calculation of the required power supply rating, cable cross-secti
 
 ![Power Calculater](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/0c84d678-f2cc-4fc1-b341-30941c44b030)
 
-Important note!
-
-# PicCap (webos-hyperion) UPDATE vom 16.02.2025:
-
-Version 0.5.1 of PicCap with the new NV12 backends has been released. YUV422 to NV12 conversion has been added. 
-
-https://github.com/TBSniller/piccap/releases/download/0.5.1/org.webosbrew.piccap_0.5.1_all.ipk
 
 
 
