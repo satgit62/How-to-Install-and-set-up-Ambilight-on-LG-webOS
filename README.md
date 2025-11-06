@@ -83,10 +83,16 @@ The most common resolutions for PicCap are:
 
 # Warning! 
 
+HyperHDR:
+
 Do not enable the **NV12** option in the standard version of HyperHDR from the Homebrew Channel.
 Please note that additional steps are required to use the **NV12** option. 
 The 50 MB **flat_lut_lin_tables.3d** LUT from ```/media/developer/apps/usr/palm/services/org.webosbrew.hyperhdr.loader.service/hyperhdr/``` has an invalid size to work with NV12 and must be deleted.
 For best results, you will also need different LUT files for different video content (**SDR**, **HDR** and **Dolby Vision**).
+
+Hyperion.NG:
+
+Since the newer versions of Hyperion.NG natively support the NV12 video standard, the **NV12** option can be enabled in PicCap to use it in Hyperion.NG. Unlike HyperHDR, no additional measures are required for this. 
 
 If you have a device with low CPU/memory power, I recommend using a lower resolution (256 × 144) at 30 fps instead of 60 fps and reducing the Hyperion priority from 150 to 100 if the device allows it. You can also deactivate the ‘Graphical Capture Backend’ to reduce the delay and save device resources. Positive effect: You can achieve more FPS if you deactivate UI Capture. Compare the images.
 
