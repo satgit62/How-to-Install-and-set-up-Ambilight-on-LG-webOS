@@ -85,10 +85,8 @@ The most common resolutions for PicCap are:
 
 HyperHDR:
 
-Do not enable the **NV12** option in the standard version of HyperHDR from the Homebrew Channel.
-Please note that additional steps are required to use the **NV12** option. 
-The 50 MB **flat_lut_lin_tables.3d** LUT from ```/media/developer/apps/usr/palm/services/org.webosbrew.hyperhdr.loader.service/hyperhdr/``` has an invalid size to work with NV12 and must be deleted.
-For best results, you will also need different LUT files for different video content (**SDR**, **HDR** and **Dolby Vision**).
+Do not enable the NV12 option in PicCap if you are using the standard version of HyperHDR from the Homebrew Channel. Please note that additional steps are required to use the NV12 option. The 50 MB file "flat_lut_lin_tables.3d LUT" from the directory `/media/developer/apps/usr/palm/services/org.webosbrew.hyperhdr.loader.service/hyperhdr/` has an invalid size for use with NV12 and must be deleted. For optimal results, you also need different LUT files for different video content (SDR, HDR, and Dolby Vision).
+For more information, see:https://github.com/satgit62/Ultimate-HyperHDR-Ambilight-fine-tuning-experience-for-LG-webOS-with-new-LUT-calibration-
 
 Hyperion.NG:
 
