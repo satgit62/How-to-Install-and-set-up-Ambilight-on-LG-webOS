@@ -563,6 +563,10 @@ For those who do not use a ready-made LED controller with a built-in level shift
 ![Leve Shifter 2 Output SN74AHCT125N](https://github.com/user-attachments/assets/34d2c792-0bf8-4ec6-84b6-116c7c2d4db3)
 
 
+# Adafruit Pixel Shifter ready-made logic level shifters with 2 signal lines.
+
+<img width="570" height="375" alt="Adafruit Pixel Shifter" src="https://github.com/user-attachments/assets/c679904b-4f7f-40cf-a299-8b109362a376" />
+
 # LEDs Logic control without level shifter
 
 It can work, but it doesn't have to. (I always prefer a level shifter)
