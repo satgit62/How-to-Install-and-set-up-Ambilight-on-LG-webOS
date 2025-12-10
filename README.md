@@ -639,8 +639,8 @@ For SK6812 RGBW and WS2812B LEDs, connect the AD1 output of the FTDI to the DATA
 For APA102 (SPI) LEDs, connect the AD1 output of the FTDI to the data input of the LED and the AD0 output to the clock input of the LEDs. Additionally, connect the FTDI's GND output to the LEDs' -5V GND input.
 The controller is powered by the TV via USB.
 HyperHDR and FTDI communicate losslessly via the TV's USB port at a baud rate of 3,2 MB, so a network connection is not required.
-
-To prevent unwanted flickering or flashing of the LEDs, a resistor between 47 and 470 ohms can be installed in the data line.
+Since the FTDI draws its power via USB, the +5 volts of the FTDI board must not be connected to the +5 volts of the LEDs.
+The FTDI also works without a level converter. However, a 470-ohm resistor should be installed on the DATA line to prevent unwanted flickering or flashing.
 
 Connect the pins of the FTDI controller to the LED strip as follows:
 
