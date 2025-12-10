@@ -642,13 +642,24 @@ HyperHDR and FTDI communicate losslessly via the TV's USB port at a baud rate of
 
 To prevent unwanted flickering or flashing of the LEDs, a resistor between 47 and 470 ohms can be installed in the data line.
 
+Connect the pins of the FTDI controller to the LED strip as follows:
+
+# APA102
 ```
-FTDI  |  SK6812RGBW/WS2812b
+FTDI  | APA102
+--------------------------------------------------------------------------------------------------------------------- 
+AD0 →   CLOCK
+AD1 →   DATA
+GND →   GND (-5 Volt) LEDs/power supply
+AD3 →   CS (aktiv low) — Can be used optionally to control the OE (Output Enable) pin of a level converter.
+```
+# SK6812RGBW/WS2812b
+```
+FTDI  | SK6812RGBW/WS2812b
+----------------------------------------------------------------------------------------------------------------------
 AD1 →    DATA
-FTDI  |  APA102
-AD0 →    CLK
-AD1 →    DATA
-GND →    GND (-5 Volt)
+GND →    GND (-5 Volt) LEDs/power supply
+AD3 →    CS (aktiv low) — Can be used optionally to control the OE (Output Enable) pin of a level converter.
 ```
 
 <img width="1075" height="548" alt="FTDI" src="https://github.com/user-attachments/assets/2aa3d7e0-57d5-4790-aaa5-8bc48191d66f" />
