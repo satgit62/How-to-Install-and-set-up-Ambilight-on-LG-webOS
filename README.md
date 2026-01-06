@@ -281,7 +281,7 @@ Attention, the RGB byte sequence must be set to GRB.
 ![2](https://github.com/user-attachments/assets/1512f8f5-894c-43d3-8305-0ac47bff4239)
 
 # A current webOS version of Hyperion.NG 2.1.2-beta.1,
-with the latest changes (Hue Bridge Security Update) can be found under the following download link:
+with the latest changes (Support of RGBW in WLED, UDP-DDP, UDP-RAW LED devices) can be found under the following download link:
 https://github.com/satgit62/satgit62.github.io/releases/download/v0.2.0-alpha/org.webosbrew.hyperion.ng.loader_0.2.2_all.ipk
 
 
