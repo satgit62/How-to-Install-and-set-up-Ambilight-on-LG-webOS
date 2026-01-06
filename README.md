@@ -208,6 +208,16 @@ The white channel of the “Neutral RGBW” LEDs does not come close to the colo
 
 ![White channel calibration RGBW only](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/710579ab-d440-46e4-ba85-b2f56dc3261b)
 
+# Controller Type wled Hyperion.NG
+
+Native RGBW support has now been added for WLED under the LED controller “wled” with the streaming protocols DDP and RAW. This allows the white LED algorithm to be selected directly and the RGBW LEDs used to be specified. For the SK6812 RGBW, for example, these are the Neural White, Cold White, and Warm White versions. The white management function in the LED configuration of the WLED must be deactivated and control left to Hyperion.
+
+<img width="1083" height="1079" alt="1" src="https://github.com/user-attachments/assets/ea69030a-9b85-4560-b7c7-2ef3fc9168f3" />
+
+<img width="1083" height="1079" alt="2" src="https://github.com/user-attachments/assets/806f3e1b-7e30-4e0b-b780-87dde5a23d01" />
+
+For more information, see: Add RGBW support for WLED, DDP, UDPRAW: https://github.com/hyperion-project/hyperion.ng/pull/1958 and https://github.com/hyperion-project/hyperion.ng/commit/77a7a46530b54ad392ea9bef38a1ab978568dc5d
+
 # Controller Type Home Assistant Hyperion.NG
 
 RGB LED lamps/bulbs that are registered under Home Assistant can also be set as an instance here. To do this, a token must be created in Home Assistant and entered here. After saving, your homeassistant lamps are available here under Home. You can decide where the lamp is by using the LED position layout assistant.
