@@ -751,11 +751,11 @@ For quick connections, you can use “Fast Wire Connector Push-in Electrical Ter
 
 ![1](https://github.com/user-attachments/assets/3533ce20-fb22-4196-ad9c-7d091fb60291)
 
-Since the SK6812 RGBW has an additional white channel (RGB white + white) compared to the WS2812, which only has RGB, is of course better than the WS2812, but this must be taken into account in the LED calculator. 
+Since the 5 Volt SK6812 RGBW has an additional white channel (RGB white + white) compared to the WS2812, which only has RGB, is of course better than the WS2812, but this must be taken into account in the LED calculator. 
 
 ![SK6812 RGB White + White](https://github.com/user-attachments/assets/238ee2d3-dbaa-47ee-a90b-91a15a401b8d)
 
-They are available as SK6812RGBW NW (Neutral White) and SK6812RGBW CW (Cold White). When using HyperSerial and HyperSerialPico from @awawa-dev, the CW version is recommended. However, the NW version can also be used, with a small adjustment in the blue/white channel aspect.
+They are available as 5 Volt SK6812RGBW NW (Neutral White) and SK6812RGBW CW (Cold White). When using HyperSerial and HyperSerialPico from @awawa-dev, the CW version is recommended. However, the NW version can also be used, with a small adjustment in the blue/white channel aspect.
 60 LEDs per metre is the best choice. It is not worth using 144 LEDs per metre, as the response time increases with the number of LEDs, and this leads to undesirable latency. The non-waterproof IP30 version is suitable for indoor use and is more flexible when installed on the device.
 
 ![SK6812RGBW](https://github.com/user-attachments/assets/ba7b2218-498d-4b7a-a68a-c13ee7accba7)
