@@ -781,6 +781,8 @@ SK6812RGBW (CW, NW, WW) 12 Volt
 
 The SK6812RGBW is now also available in a 12-volt version, in which each individual LED can be controlled separately.
 Due to the higher voltage, the current is significantly lower than with the 5-volt generation. This has the advantage that the 12-volt power supply used does not need to be as powerful and a thinner cable (AWG 22) can be used. For 300 LEDs, this corresponds to 5 amps. According to the LED power calculator, only one power supply is recommended at the beginning of the LED strip, which greatly simplifies the cabling.
+
+# Attention!
 Please note, however, that there are also versions in circulation that do not meet our requirements. 
 
 For example, there are versions in which not every single LED can be controlled via its own IC, but only LEDs in groups of three. This can be easily recognized by looking at the structure of the LEDs and noticing that only every three LEDs can be cut off. With an individually controllable LED (IC), on the other hand, each individual LED can be shortened/cut off as desired.
