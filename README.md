@@ -726,7 +726,7 @@ Go to "Config" and then to "WiFi Setup". At the bottom of this page select the E
 ![WiFi Setup](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/bc7f0104-ea8e-4884-b37a-d9cb8f218db5)
 
 
-# Power Supply
+# Power Supply 5 Volt
 
 A good choice of power supply is the Mean Well LRS-100-5 Case 5 V/DC/0-18/90W. This is a short circuit proof switch mode power supply that will meet all requirements up to 18A. MEAN WELL 1439455 LRS-75-5 AC 85-264VAC 5V 14A power supply. This is a short circuit proof switch mode power supply that will meet all requirements up to 14A.
 
@@ -738,6 +738,17 @@ Alternatively, you can use the closed switching power supply ‘5V Power Supply 
 
 ![Alitov Netzteil](https://github.com/user-attachments/assets/c81b0f4b-e3cf-422d-bfba-5e597438c61f)
 
+# Power Supply 12 Volt
+
+For versions with 12-volt LEDs and up to 300 LEDs, we recommend the 'Meanwell LPV-60-12V' with an output power of 5 amps.
+
+<img width="849" height="619" alt="MW LPV 60 12" src="https://github.com/user-attachments/assets/de9ec697-820f-4300-87f0-79ec0dc9a335" />
+
+An alternative is 'ultra-thin lighting transformers AC 110V 220V to DC 12V 24V 60W 100W 200W 300W 400W for LED light driver power supply adapters' in the 12V 60 W version.
+
+<img width="653" height="604" alt="Ultra Thin Lighting Transformers 110V 220V to 12V 24V 60W" src="https://github.com/user-attachments/assets/a3a621be-8904-4566-a167-d03ba6e0b962" />
+
+
 # Quick Connect terminal blocks
 
 For quick connections, you can use “Fast Wire Connector Push-in Electrical Terminal Block Universal Splicing” or “Quick Connect terminal blocks” from WAGO or DYGO.
@@ -747,7 +758,7 @@ For quick connections, you can use “Fast Wire Connector Push-in Electrical Ter
 ![WAGO](https://github.com/user-attachments/assets/39ac7a24-7c01-47f7-96e6-9d9e9918911b)
 
 
-# LEDs
+# LEDs Nanopixel 5 Volt
 
 ![1](https://github.com/user-attachments/assets/3533ce20-fb22-4196-ad9c-7d091fb60291)
 
@@ -763,6 +774,25 @@ They are available as 5 Volt SK6812RGBW NW (Neutral White) and SK6812RGBW CW (Co
 For a number of up to 120 LEDs, use AWG 20 (0.519 mm2); for more than 120 LEDs, use AWG 18 (0.75 mm²) or AWG 16 (1.27 mm²) silicone wire for the power connection and for connecting the LED strips/segments. 
 
 ![Silikon Kabel](https://github.com/user-attachments/assets/b8ffa3b9-2fee-4cc0-9e9c-c78f07ac2549)
+
+# LEDs Nanopixel 12 Volt
+
+SK6812RGBW (CW, NW, WW) 12 Volt
+
+The SK6812RGBW is now also available in a 12-volt version, in which each individual LED can be controlled separately.
+Due to the higher voltage, the current is significantly lower than with the 5-volt generation. This has the advantage that the 12-volt power supply used does not need to be as powerful and a thinner cable (AWG 22) can be used. For 300 LEDs, this corresponds to 5 amps. According to the LED power calculator, only one power supply is recommended at the beginning of the LED strip, which greatly simplifies the cabling.
+Please note, however, that there are also versions in circulation that do not meet our requirements. 
+
+For example, there are versions in which not every single LED can be controlled via its own IC, but only LEDs in groups of three. This can be easily recognized by looking at the structure of the LEDs and noticing that only every three LEDs can be cut off. With an individually controllable LED (IC), on the other hand, each individual LED can be shortened/cut off as desired.
+
+See pictures.
+
+<img width="741" height="567" alt="SK6812RBGW 12 V" src="https://github.com/user-attachments/assets/a3373c79-cf7e-445a-b4ab-b9280df87202" />
+
+<img width="559" height="104" alt="Sk6812RGBW 12 V BALABER" src="https://github.com/user-attachments/assets/a095da47-05c6-4b8a-9bde-528ca728e398" />
+
+<img width="550" height="179" alt="One IC Drive 3 LRDs" src="https://github.com/user-attachments/assets/616d20c1-781c-41e0-b558-5fa6c9f8844c" />
+
 
 If you do not have the possibility to solder the LED segments together with silicone wires, you can connect the LED segments using the corner connectors such as the BTF-LIGHTING 3Pin WS2812B WS2811 SK6812 Corner Connector 10mm Wide led strip right angle L.
 
