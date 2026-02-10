@@ -796,6 +796,7 @@ See pictures.
 <img width="550" height="179" alt="One IC Drive 3 LRDs" src="https://github.com/user-attachments/assets/616d20c1-781c-41e0-b558-5fa6c9f8844c" />
 
 
+
 If you do not have the possibility to solder the LED segments together with silicone wires, you can connect the LED segments using the corner connectors such as the BTF-LIGHTING 3Pin WS2812B WS2811 SK6812 Corner Connector 10mm Wide led strip right angle L.
 
 ![LED Corner](https://github.com/user-attachments/assets/e4525a8c-7231-4cee-9a02-662ce80cb4e9)
