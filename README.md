@@ -789,7 +789,6 @@ For example, there are versions in which not every single LED can be controlled 
 
 See pictures.
 
-<img width="741" height="567" alt="SK6812RBGW 12 V" src="https://github.com/user-attachments/assets/a3373c79-cf7e-445a-b4ab-b9280df87202" />
 
 <img width="559" height="104" alt="Sk6812RGBW 12 V BALABER" src="https://github.com/user-attachments/assets/a095da47-05c6-4b8a-9bde-528ca728e398" />
 
