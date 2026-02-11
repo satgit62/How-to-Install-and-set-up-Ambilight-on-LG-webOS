@@ -790,10 +790,15 @@ For example, there are versions in which not every single LED can be controlled 
 See pictures.
 
 
+<img width="741" height="567" alt="SK6812RBGW 12 V" src="https://github.com/user-attachments/assets/3b115867-a320-4140-8215-22971e6ae159" />
+
 <img width="559" height="104" alt="Sk6812RGBW 12 V BALABER" src="https://github.com/user-attachments/assets/a095da47-05c6-4b8a-9bde-528ca728e398" />
 
 <img width="550" height="179" alt="One IC Drive 3 LRDs" src="https://github.com/user-attachments/assets/616d20c1-781c-41e0-b558-5fa6c9f8844c" />
 
+# Attention!
+
+The 12-volt SK6812RGBW LED strips from BTF-LIGHTING (6-pin IC) have a different running direction with regard to the 12-volt positive pole than the 12-volt SK6812RGBW LED strips from BALABER (4-pin IC). The Balaber strips are constructed in the same way as the 5-volt version. When laying the strips, it is therefore important to note that the 12-volt positive pole is located on the inside of the BALABER strips and on the outside of the BTF-LIGHTING strips along the DATA direction of travel.
 
 
 If you do not have the possibility to solder the LED segments together with silicone wires, you can connect the LED segments using the corner connectors such as the BTF-LIGHTING 3Pin WS2812B WS2811 SK6812 Corner Connector 10mm Wide led strip right angle L.
