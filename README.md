@@ -309,6 +309,8 @@ For those who want to use the low-cost Skydimo set, first make sure you have the
 
 # Controller Type Philips Hue 
 
+<img width="1886" height="993" alt="philipshue" src="https://github.com/user-attachments/assets/081c0405-3254-47e4-a03b-8472669ed9f1" />
+
 Philips Hue configuration see also:
 
 HyperHDR https://github.com/awawa-dev/HyperHDR/discussions/512 
