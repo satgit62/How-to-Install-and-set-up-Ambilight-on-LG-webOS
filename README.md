@@ -309,7 +309,11 @@ For those who want to use the low-cost Skydimo set, first make sure you have the
 
 # Controller Type Philips Hue 
 
+
 <img width="1886" height="993" alt="philipshue" src="https://github.com/user-attachments/assets/081c0405-3254-47e4-a03b-8472669ed9f1" />
+
+<img width="1394" height="864" alt="philipshue config" src="https://github.com/user-attachments/assets/85d840b9-7862-4b2a-a923-1e278d3efcbf" />
+
 
 Philips Hue configuration see also:
 
