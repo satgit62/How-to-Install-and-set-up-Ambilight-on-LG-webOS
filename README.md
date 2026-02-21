@@ -174,7 +174,7 @@ Once the HyperHDR daemon service is successfully started, open a browser of your
 
 First go to LED hardware and make the settings under LED controller.
 
-# ESP32 controller with “WLED” firmware:
+# ESP32 controller with 'WLED' firmware:
 
 To use the WLED LED controller in HyperHDR/Hyperion.NG, a functioning installed WLED on compatible hardware is required. See WLED project:https://kno.wled.ge/ 
 The WLED Web Installer Service at https://install.wled.me/ can be used to flash a compatible ESP32/8266 board. 
@@ -184,6 +184,10 @@ Please note that depending on the ESP version used, a valid CH340 or CP210x driv
 CH340 Drivers for Windows, and Mac see: https://www.wemos.cc/en/latest/ch340_driver.html, and CP210x Drivers see:https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
 
 Various kernel drivers for LG webOS can be found at:https://github.com/throwaway96/webos-kernel-drivers
+
+# ESP8266, ESP32 family (including S2/S3/C3/C6) and Raspberry Pi Pico (RP2040/RP2350) with 'Hyperk' firmware:
+Hyperk is a lightweight, wireless, high-performance LED controller, a fast, multi-architecture alternative for driving LED strips over WiFi. See Hyperk project:https://github.com/awawa-dev/Hyperk
+
 
 # Controller udpraw Protocol for WLED
 
@@ -197,29 +201,37 @@ The controller type: wled also has an autodiscover function when you set the fir
 
 ![Controller type WLED](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/242735b1-4c10-454a-84c3-f0fcc2456088)
 
+
+# Controller Type Hyperk
+
+<img width="1375" height="863" alt="Hyperk local" src="https://github.com/user-attachments/assets/542426e3-ec9c-47e3-9a72-630d84133055" />
+
+
 # HyperHDR LED controller type settings for RP2040-USB controller with “HyperSerialPico” or “HyperSerial” ESP32 Generic/S2 Mini firmware
 
-First, go to LED Hardware and select “adalight” under “Controller Type”.
+First, go to LED Hardware and select 'adalight' under 'Controller Type'.
 Select your RP2040 device under “Output path”. For example, ttyACM0. 
-Select the option “High speed serial AWA protocol with data integrity check”, with a baud rate of, 2000000.
-In addition, “Esp8266/ESP32/Rp2040 handshake” and “Force HyperSerial detection (ignore board ProductId/VendorId)” must be selected.
+Select the option 'High speed serial AWA protocol with data integrity check', with a baud rate of, 2000000.
+In addition, 'Esp8266/ESP32/Rp2040 handshake' and 'Force HyperSerial detection (ignore board ProductId/VendorId)' must be selected.
 
 ![adalight-controller](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/bc77629c-0a73-4f94-a4dd-d6dd4ab189e0)
 
-It is only necessary to select the “White channel calibration (RGBW only)” option if you are using RGBW LEDs with 4 channels (SK6812RGBW).
-The white channel of the “Neutral RGBW” LEDs does not come close to the color obtained by mixing RGB LEDs. It is slightly yellow, so you may need to reduce the blue/white component to boost the blue channel. “Cold RGBW” LEDs are usually better balanced. So on my SK6812RGBW neutral white, I reduced the “blue/white aspect” to 180 to boost the blue channel and create a reasonable white balance.
+It is only necessary to select the 'White channel calibration (RGBW only)' option if you are using RGBW LEDs with 4 channels (SK6812RGBW).
+The white channel of the 'Neutral RGBW' LEDs does not come close to the color obtained by mixing RGB LEDs. It is slightly yellow, so you may need to reduce the blue/white component to boost the blue channel. 'Cold RGBW' LEDs are usually better balanced. So on my SK6812RGBW neutral white, I reduced the 'blue/white aspect' to 180 to boost the blue channel and create a reasonable white balance.
 
 ![White channel calibration RGBW only](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/710579ab-d440-46e4-ba85-b2f56dc3261b)
 
+
 # Controller Type wled Hyperion.NG
 
-Native RGBW support has now been added for WLED under the LED controller “wled” with the streaming protocols DDP and RAW. This allows the white LED algorithm to be selected directly and the RGBW LEDs used to be specified. For the SK6812 RGBW, for example, these are the Neural White, Cold White, and Warm White versions. The white management function in the LED configuration of the WLED must be deactivated and control left to Hyperion.
+Native RGBW support has now been added for WLED under the LED controller 'wled' with the streaming protocols DDP and RAW. This allows the white LED algorithm to be selected directly and the RGBW LEDs used to be specified. For the SK6812 RGBW, for example, these are the Neural White, Cold White, and Warm White versions. The white management function in the LED configuration of the WLED must be deactivated and control left to Hyperion.
 
 <img width="1083" height="1079" alt="1" src="https://github.com/user-attachments/assets/ea69030a-9b85-4560-b7c7-2ef3fc9168f3" />
 
 <img width="1083" height="1079" alt="2" src="https://github.com/user-attachments/assets/806f3e1b-7e30-4e0b-b780-87dde5a23d01" />
 
 For more information, see: Add RGBW support for WLED, DDP, UDPRAW: https://github.com/hyperion-project/hyperion.ng/pull/1958 and https://github.com/hyperion-project/hyperion.ng/commit/77a7a46530b54ad392ea9bef38a1ab978568dc5d
+
 
 # Controller Type Home Assistant Hyperion.NG
 
@@ -251,7 +263,7 @@ The FTDI-FT232H LED controller is supported by HyperHDR using the newly develope
 
 Select the appropriate controller in the HyperHDR LED hardware menu under “SPI_FTDI”. An example of this is SK6812spi for RGBW LEDs.
 Attention, the RGB byte sequence must be set to GRB.
-Under SPI Path you must select your “libFTDI SPI device location”.
+Under SPI Path you must select your 'libFTDI SPI device location'.
 The baud rate can be set from 3000000 to 3200000.
 Under White LED algorithm select the White channel calibration (RGBW only) for SK6812 RGBW LEDs.
 If you have SK6812RGBW CW LEDs, leave the RGB/White channel aspect at 255.
@@ -387,7 +399,7 @@ Once the new instance has been created, it can be started, and you can switch to
 
 # Effects
 
-In the next step, we turn to the menu effects (effects) and ensure that the boat effects and background effect remain switched off. Do not check the relevant boxes. Otherwise, you will have unwanted “flashing orgies” when starting the TV.
+In the next step, we turn to the menu effects (effects) and ensure that the boat effects and background effect remain switched off. Do not check the relevant boxes. Otherwise, you will have unwanted 'flashing orgies' when starting the TV.
 
 ![Effects](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/af77184a-ac00-445f-9d36-f4e0a32322d9)
 
@@ -395,31 +407,31 @@ The next step is only important for HyperHDR users! (This function is not availa
 
 # HDR to SDR tone mapping
 
-For the correct HDR global detection function, the “HDR to SDR tone mapping” option must be activated under Network Services, Flatbuffer Server.
+For the correct HDR global detection function, the 'HDR to SDR tone mapping' option must be activated under Network Services, Flatbuffer Server.
 
 ![HDR to SDR tone mapping](https://github.com/user-attachments/assets/0fe30f83-9228-4f1a-abc3-6cb77efd288c)
 
 
 # Image Processing
 
-Under image processing, you have the choice between “Classic HyperHDR calibration” and not “Classic HyperHDR calibration”.
-When using WLED, the “Classic HyperHDR calibration” is suitable, as the saturation can regulate the color intensity.
+Under image processing, you have the choice between “Classic HyperHDR calibration” and not 'Classic HyperHDR calibration'.
+When using WLED, the 'Classic HyperHDR calibration' is suitable, as the saturation can regulate the color intensity.
 
 ![HyperHDR Classic HyperHDR calibration](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/6aae5f47-fd2f-41cb-a5c2-bc2ed59f7f23)
 
-When using HyperSerial/HyperSerialPico, the non-“Classic HyperHDR calibration” is suitable, as you can control the brightness here. Since HyperSerial driver comes with a balanced color saturation, the missing saturation control is negligible in this case.
+When using HyperSerial/HyperSerialPico, the non-'Classic HyperHDR calibration' is suitable, as you can control the brightness here. Since HyperSerial driver comes with a balanced color saturation, the missing saturation control is negligible in this case.
 
 ![Color channel adjustments No Classic HyperHDR calibration](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/0f6f66a8-c78c-45bd-b52e-1643fb1a435e)
 
 # Live Calibration
 
-The color and gamma values depend on the LED stripe type used. The adjustment should be made under the “Remote Control” menu in the live calibration menu, so that the changes are noticed immediately. As the values set in Live Calibration are not permanent, you should enter the values in the Image Processing menu and save them permanently.
+The color and gamma values depend on the LED stripe type used. The adjustment should be made under the 'Remote Control' menu in the live calibration menu, so that the changes are noticed immediately. As the values set in Live Calibration are not permanent, you should enter the values in the Image Processing menu and save them permanently.
 
 ![HyperHDR Live calibration](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/d6600e06-f0db-4a9f-a406-355293bf1b20)
 
 # Smoothing
 
-To avoid flickering and unsteadiness in LEDs, the next step is to activate and save “smoothing” under Image processing.
+To avoid flickering and unsteadiness in LEDs, the next step is to activate and save 'smoothing' under Image processing.
 
 ![HyperHDR Smoothing](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/310818e6-f476-4820-b43e-f8ae7da18c51)
 
@@ -432,14 +444,14 @@ If you want to watch DRM-protected content such as NETFLIX, Disney & Co., you mu
 
 # Remote Control
 
-Under HyperHDR/Hyperion remote control menu, you could monitor all processes and see whether data from PicCap is arriving at the HyperHDR “Flatbuffers” under source selection. Smoothing and black bar detection can also be switched on and off.
+Under HyperHDR/Hyperion remote control menu, you could monitor all processes and see whether data from PicCap is arriving at the HyperHDR 'Flatbuffers' under source selection. Smoothing and black bar detection can also be switched on and off.
 Under LED device, the LEDs can be switched off and on as required.
 
 Note: the following only applies to HyperHDR.
 
 There you can also switch HDR Global on or off if required. However, HyperHDR recognizes when a source provides HDR content and switches HDR Global on automatically and switches it off again for SD video sources.
 
-The automatic activation/deactivation of the HDR Global switch, provided that “HDR to SDR tone mapping” is selected under Network Services, Flatbuffer, only applies when using a single LUT table. With multiple LUTs the tone mapping must always be on.
+The automatic activation/deactivation of the HDR Global switch, provided that 'HDR to SDR tone mapping' is selected under Network Services, Flatbuffer, only applies when using a single LUT table. With multiple LUTs the tone mapping must always be on.
 
 HyperHDR:
 ![HyperHDR Remote Control](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/cc5cc695-3846-4cf5-9b3a-c528c5860451)
@@ -449,7 +461,7 @@ Hyperion.NG:
 
 # Logs
 
-You can view whether the LED controller has been recognized correctly under HyperHDR Logs. For the USB connection also under webOS Device Manager Debug, “dmesg”.
+You can view whether the LED controller has been recognized correctly under HyperHDR Logs. For the USB connection also under webOS Device Manager Debug, 'dmesg'.
 
 HyperserialPico Log:
 
@@ -495,7 +507,7 @@ If you also want to have the maximum brightness when switching on, you must set 
 ![WLED default brightness](https://github.com/user-attachments/assets/54f2fe4c-bef1-4bea-9f33-24eaf25af5ef)
 
 It is also important to make further settings depending on the LED type used, RGB or RGBW. For example, when using four-channel LEDs such as SK6812 RGBW instead of three-channel RGB LEDs such as the WS2812b. 
-In the LED settings under “White management”--> “White Balance correction”, under “Calculate white channel automatically from RGB”, select “Dual” to actually use the white channel of the LEDs.
+In the LED settings under 'White management'--> 'White Balance correction', under “Calculate white channel automatically from RGB”, select 'Dual' to actually use the white channel of the LEDs.
 
 ![WLED Withe Balance](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/e669d876-a8e2-4dec-9dc1-7675877c46ff)
 
@@ -512,7 +524,7 @@ If the connection between WLED and router is interrupted, select under WiFi Sett
 
 # Insanelight Wemos D1 Mini WLED
 
-One of the most popular and cost-effective standard solutions in the EU/Germany is the “Insanelight Wemos D1 Mini WLED RGBW” complete kit, based on a D1 Mini/node MCU-ESP8266 LED controller. The desired configuration can be created on the sales page.
+One of the most popular and cost-effective standard solutions in the EU/Germany is the 'Insanelight Wemos D1 Mini WLED RGBW' complete kit, based on a D1 Mini/node MCU-ESP8266 LED controller. The desired configuration can be created on the sales page.
 The set is completely pre-configured and ready for connection up to a current consumption of 10 A at 5 volts (approx. 260LEDs).
 
 ![Insanelight Wemos D1 Mini WLED RGBW](https://github.com/user-attachments/assets/bc57ecc3-300c-4fe6-9709-96bc81c6b436)
@@ -552,9 +564,9 @@ As the current limit of USB 3 on LG is limited to 0.9A and the Skydimo has no po
 # Quinled-dig-uno-v3-digital-led-controller
 
 For those who prefer WLED firmware because of all the extras, but have had a bad experience over WiFi because of the long delay, then I recommend the ESP32 variant with built-in LAN connection. 
-"QuinLED Dig Uno v3 DIGITAL LED controller", which is also available with LAN and acrylic housing. Or "ABC! WLED Controller Board V43 (5-24V)", "Ethernet Adapter for WLED Controller" and ‘Housing for WLED Boards’. The controllers are supplied with WLED.
+'QuinLED Dig Uno v3 DIGITAL LED controller', which is also available with LAN and acrylic housing. Or 'ABC! WLED Controller Board V43 (5-24V)', 'Ethernet Adapter for WLED Controller' and 'Housing for WLED Boards'. The controllers are supplied with WLED.
 Just google: 
-“QuinLED Dig Uno v3 DIGITAL LED controller”, which is also available with LAN and acrylic housing. Or “ABC! WLED Controller Board V43 (5-24V)", ‘Ethernet Adapter for WLED Controller’ and ‘Housing for WLED Boards’. The controllers are supplied with WLED.
+'QuinLED Dig Uno v3 DIGITAL LED controller', which is also available with LAN and acrylic housing. Or 'ABC! WLED Controller Board V43 (5-24V)', 'Ethernet Adapter for WLED Controller' and 'Housing for WLED Boards'. The controllers are supplied with WLED.
 
 ![quinled-dig-uno-v3-digital-led-controller](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/66fc94af-7ecf-4a95-aca9-0390492be823)
 ![UNO V3](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/4a7c293d-b0b8-4895-93e8-e56d52f9c32f)
@@ -716,7 +728,7 @@ Works with WLED. ESP32 Models with a faster serial chip such as the CH340G and C
 
 Only WLED
 
-If you prefer to buy and set up the LAN-ESP32 “WT32-ETH01” yourself, you should also bear in mind that a TTL-to-USB adapter is required for the software flashing. In addition, a level shifter should definitely be integrated to prevent the ESP from being destroyed or experiencing unwanted flashes or effects.
+If you prefer to buy and set up the LAN-ESP32 'WT32-ETH01' yourself, you should also bear in mind that a TTL-to-USB adapter is required for the software flashing. In addition, a level shifter should definitely be integrated to prevent the ESP from being destroyed or experiencing unwanted flashes or effects.
  
 For the flash process, you must connect the TX from TTL to USB adapter with the RX0 from the ESP and the RX from TTL to USB adapter with the TX0 from the ESP, i.e. cross over. GND to GND. If the USB->TTL adapter offers a choice between 5V and 3.3 volts, then 5V should be selected. To start the flash with the WLED software, IO0 (next to RX0) must be connected to GND.
 ![wt32prog](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/60327c76-ad0b-4c93-ae6a-42e48f8b1f45)
@@ -740,7 +752,7 @@ A 3 pin power cable with L, N and GND and a suitable plug such as an EU, UK or U
 
 ![Mean Well LRS-100-5-0](https://github.com/user-attachments/assets/868867c8-4b9c-403b-a1b5-d613869f1bf6)
 
-Alternatively, you can use the closed switching power supply ‘5V Power Supply 5 Volt 15A 75W Adapter 100V~240V AC to DC Converter 5 Vdc 15 Amp Power Transformer for LED Pixel Strip Light’ ‘ALITOVE Power Supply 5V 15A Universal Adapter 5 Volt Power Supply 75W’ and the matching screw adapter ‘Female And Male DC Connectors 2.5×5.5 mm Power Plug Adapter Jacks Sockets Connector For Signal Colour LED Strip CCTV Camera’.
+Alternatively, you can use the closed switching power supply ‘5V Power Supply 5 Volt 15A 75W Adapter 100V~240V AC to DC Converter 5 Vdc 15 Amp Power Transformer for LED Pixel Strip Light’ 'ALITOVE Power Supply 5V 15A Universal Adapter 5 Volt Power Supply 75W' and the matching screw adapter 'Female And Male DC Connectors 2.5×5.5 mm Power Plug Adapter Jacks Sockets Connector For Signal Colour LED Strip CCTV Camera'.
 
 ![Alitov Netzteil](https://github.com/user-attachments/assets/c81b0f4b-e3cf-422d-bfba-5e597438c61f)
 
