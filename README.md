@@ -188,6 +188,10 @@ Various kernel drivers for LG webOS can be found at:https://github.com/throwaway
 # ESP8266, ESP32 family (including S2/S3/C3/C6) and Raspberry Pi Pico (RP2040/RP2350) with 'Hyperk' firmware:
 Hyperk is a lightweight, wireless, high-performance LED controller, a fast, multi-architecture alternative for driving LED strips over WiFi. See Hyperk project:https://github.com/awawa-dev/Hyperk
 
+# Controller Type Hyperk
+
+<img width="1375" height="863" alt="Hyperk local" src="https://github.com/user-attachments/assets/542426e3-ec9c-47e3-9a72-630d84133055" />
+
 
 # Controller udpraw Protocol for WLED
 
@@ -201,11 +205,6 @@ So I prefer here as controller type: udpraw, RGB byte order: RGB, update time 0,
 The controller type: wled also has an autodiscover function when you set the first time.
 
 ![Controller type WLED](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/242735b1-4c10-454a-84c3-f0fcc2456088)
-
-
-# Controller Type Hyperk
-
-<img width="1375" height="863" alt="Hyperk local" src="https://github.com/user-attachments/assets/542426e3-ec9c-47e3-9a72-630d84133055" />
 
 
 # HyperHDR LED controller type settings for RP2040-USB controller with “HyperSerialPico” or “HyperSerial” ESP32 Generic/S2 Mini firmware
