@@ -188,7 +188,7 @@ Various kernel drivers for LG webOS can be found at:https://github.com/throwaway
 # ESP8266, ESP32 family (including S2/S3/C3/C6) and Raspberry Pi Pico (RP2040/RP2350) with 'Hyperk' firmware: 
 Hyperk is a lightweight, wireless, high-performance LED controller, a fast, multi-architecture alternative for driving LED strips over WiFi. See Hyperk project:https://github.com/awawa-dev/Hyperk
 
-LAN version ESP32-ETH0 and compatible coming soon.
+Support for LAN cable-connected ESP32-ETH01 and compatible controllers has now been added.
 
 # Controller Type Hyperk
 
