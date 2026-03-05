@@ -192,7 +192,11 @@ Support for LAN cable-connected ESP32-ETH01 and compatible controllers has now b
 
 # Controller Type Hyperk
 
-<img width="1375" height="863" alt="Hyperk local" src="https://github.com/user-attachments/assets/542426e3-ec9c-47e3-9a72-630d84133055" />
+<img width="1290" height="1079" alt="HyperHDR Controller type Hyperk" src="https://github.com/user-attachments/assets/bd69cdf4-1959-4e8b-8c36-5ebe79f60774" />
+
+<img width="1304" height="1079" alt="Hyperk White LED algorithm" src="https://github.com/user-attachments/assets/9ccd1d83-316a-4bbc-84d9-a33825ab40a8" />
+
+[How to Hyperk](https://github.com/satgit62/How-to-install-and-set-up-Hyperk-on-ESP-RP-2040-2350)
 
 
 # Controller udpraw Protocol for WLED
