@@ -830,6 +830,7 @@ The 12-volt SK6812RGBW LED strips from BTF-LIGHTING (6-pin IC) have a different 
 
 <img width="588" height="626" alt="Comparison" src="https://github.com/user-attachments/assets/3eb7595e-a539-4589-858f-33a45c43da25" />
 
+# Corner connectors
 
 If you do not have the possibility to solder the LED segments together with silicone wires, you can connect the LED segments using the corner connectors such as the BTF-LIGHTING 3Pin WS2812B WS2811 SK6812 Corner Connector 10mm Wide led strip right angle L.
 
