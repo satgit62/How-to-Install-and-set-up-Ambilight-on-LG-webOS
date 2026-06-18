@@ -313,7 +313,7 @@ Attention, the RGB byte sequence must be set to GRB.
 
 ![2](https://github.com/user-attachments/assets/1512f8f5-894c-43d3-8305-0ac47bff4239)
 
-# A current webOS version of Hyperion.NG Release v2.2.1,
+# A current webOS version of Hyperion.NG Release v2.2.2,
 with the latest changes (Support of RGBW in WLED, UDP-DDP, UDP-RAW LED devices) can be found under the following download link:
 https://github.com/satgit62/webos-hyperion.ng
 
