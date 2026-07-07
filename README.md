@@ -1,5 +1,19 @@
 # How-to-Install-and-set-up-Ambilight-on-LG-webOS
 
+# Note:
+My guide covers all possible scenarios and hardware configurations. That’s why it might seem a little too complicated to some users.
+But don’t worry: Once you’ve decided on the hardware, assembly and setup are quick and easy. I estimate that it will take you one to two hours if you’ve worked out a plan.
+
+LEDs: For accurate color reproduction, I recommend the SK6812RGBW, either the CW or NW version with 60 LEDs per meter.
+
+Controller: There’s a wide selection here, and it depends on whether or not you know how to use a soldering iron. My clear recommendation is the HyperSerialPico on one of the three RP2040-based boards, such as the Adafruit Feather RP2040 Scorpio, the Adafruit ItsyBitsy RP2040, or the Pimoroni Plasma 2040. 
+
+Depending on the number of LEDs you’re using, you’ll need a power supply to power them. I recommend the Mean Well LRS-100-5 Case 5 V/DC/0-18/90 W or the MEAN WELL 1439455 LRS-75-5 AC 85–264 VAC 5 V 14 A. 
+For the 12-volt LED version, use the Meanwell LPV-60-12V with an output power of 5 amps.
+
+Small parts such as silicone cables, automotive fuses, and wiring accessories. 
+All of these parts are listed in this guide.
+
 Installation instructions and settings for PicCap (hyperion-webos) and HyperHDR/Hyperion
 
 The prerequisite for Ambilight is an LG TV device that has been successfully rooted and the Homebrew Channel installed. You can find out whether your device can be rooted at https://cani.rootmy.tv/ by entering your LG model type.
