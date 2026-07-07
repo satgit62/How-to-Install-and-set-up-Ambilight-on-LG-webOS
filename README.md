@@ -1,4 +1,5 @@
 # How-to-Install-and-set-up-Ambilight-on-LG-webOS
+Installation instructions and settings for PicCap (hyperion-webos) and HyperHDR/Hyperion
 
 # Note:
 My guide covers all possible scenarios and hardware configurations. That’s why it might seem a little too complicated to some users.
