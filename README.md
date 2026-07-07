@@ -13,7 +13,7 @@ There’s a wide selection here, and it depends on whether or not you know how t
 * Power Supply:
 Depending on the number of LEDs you’re using, you’ll need a power supply to power them. I recommend the Mean Well LRS-100-5 Case 5 V/DC/0-18/90 W or the MEAN WELL 1439455 LRS-75-5 AC 85–264 VAC 5 V 14 A.
  
-For the 12-volt LED version, use the Meanwell LPV-60-12V with an output power of 5 amps.
+ For the 12-volt LED version, use the Meanwell LPV-60-12V with an output power of 5 amps.
 
 * Small parts such as silicone cables, automotive fuses, and wiring accessories. 
 All of these parts are listed in this guide.
