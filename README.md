@@ -11,11 +11,15 @@ For accurate color reproduction, I recommend the SK6812RGBW, either the CW or NW
 There’s a wide selection here, and it depends on whether or not you know how to use a soldering iron. My clear recommendation is the HyperSerialPico on one of the three RP2040-based boards, such as the Adafruit Feather RP2040 Scorpio, the Adafruit ItsyBitsy RP2040, or the Pimoroni Plasma 2040. 
 
 * Power Supply:
-Depending on the number of LEDs you’re using, you’ll need a power supply to power them. I recommend the Mean Well LRS-100-5 Case 5 V/DC/0-18/90 W or the MEAN WELL 1439455 LRS-75-5 AC 85–264 VAC 5 V 14 A. 
+Depending on the number of LEDs you’re using, you’ll need a power supply to power them. I recommend the Mean Well LRS-100-5 Case 5 V/DC/0-18/90 W or the MEAN WELL 1439455 LRS-75-5 AC 85–264 VAC 5 V 14 A.
+ 
 For the 12-volt LED version, use the Meanwell LPV-60-12V with an output power of 5 amps.
 
 * Small parts such as silicone cables, automotive fuses, and wiring accessories. 
 All of these parts are listed in this guide.
+
+This is just a recommendation, not a requirement!
+In the [Hardware and wiring diagrams](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/blob/main/README.md#hardware-and-wiring-diagram) section, I've listed all the different hardware options I've successfully tested, along with the corresponding wiring diagrams.
 
 # Installation instructions and settings for PicCap (hyperion-webos) and HyperHDR/Hyperion
 
