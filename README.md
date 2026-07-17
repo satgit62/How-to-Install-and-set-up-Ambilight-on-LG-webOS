@@ -292,7 +292,7 @@ The FTDI-FT232H LED controller is supported by HyperHDR using the newly develope
 # HyperHDR FTDI
 
 Select the appropriate controller in the HyperHDR LED hardware menu under “SPI_FTDI”. An example of this is SK6812spi for RGBW LEDs.
-Attention, the RGB byte sequence must be set to GRB.
+Attention, the RGB byte order must be set to GRB.
 Under SPI Path you must select your 'libFTDI SPI device location'.
 The baud rate can be set from 3000000 to 3200000.
 Under White LED algorithm select the White channel calibration (RGBW only) for SK6812 RGBW LEDs.
@@ -325,7 +325,7 @@ Select the appropriate controller in the Hyperion.NG LED hardware menu under USB
 Under Output path you must select your “FTDI Single RS232-HS” device.
 The baud rate can be set to 3200000.
 Under White LED algorithm, select a suitable algorithm for your LEDs, such as Neutral White, Cold White or White off.
-Attention, the RGB byte sequence must be set to GRB.
+Attention, the RGB byte order must be set to GRB.
 
 ![Hyperion NG FTDI](https://github.com/user-attachments/assets/a3ead4e1-1dff-4f80-a4df-5d532f6568c5)
 
