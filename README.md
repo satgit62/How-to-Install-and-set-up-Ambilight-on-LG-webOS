@@ -7,6 +7,7 @@ But don’t worry: Once you’ve decided on the hardware, assembly and setup are
 
 * LEDs: 
 For accurate color reproduction, I recommend the SK6812RGBW, either the CW or NW version with 60 LEDs per meter.
+
 ℹ️ Please note that for the 12-volt version, the “RGB byte order” must be set to GRB instead of RGB in the HyperHDR/Hyperion.NG settings. 
 
 * Controller: 
