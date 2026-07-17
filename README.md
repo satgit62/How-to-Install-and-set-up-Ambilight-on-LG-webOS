@@ -832,6 +832,9 @@ For a number of up to 120 LEDs, use AWG 20 (0.519 mm2); for more than 120 LEDs, 
 SK6812RGBW (CW, NW, WW) 12 Volt
 
 The SK6812RGBW is now also available in a 12-volt version, in which each individual LED can be controlled separately.
+
+ℹ️ Please note that for the 12-volt version of the SK6812RGBW, the “RGB byte order” in the HyperHDR/Hyperion.NG settings must be set to GRB instead of RGB. 
+
 Due to the higher voltage, the current is significantly lower than with the 5-volt generation. This has the advantage that the 12-volt power supply used does not need to be as powerful and a thinner cable (AWG 22) can be used. For 300 LEDs, this corresponds to 5 amps. According to the LED power calculator, only one power supply is recommended at the beginning of the LED strip, which greatly simplifies the cabling.
 
 # Attention!
