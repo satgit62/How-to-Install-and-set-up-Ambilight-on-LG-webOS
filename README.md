@@ -8,7 +8,7 @@ But don’t worry: Once you’ve decided on the hardware, assembly and setup are
 * LEDs: 
 For accurate color reproduction, I recommend the SK6812RGBW, either the CW or NW version with 60 LEDs per meter.
 
-ℹ️ Please note that for the 12-volt version, the “RGB byte order” must be set to GRB instead of RGB in the HyperHDR/Hyperion.NG settings. 
+ℹ️ Please note that for the 12-volt version of the SK6812RGBW, the “RGB byte order” in the HyperHDR/Hyperion.NG settings must be set to GRB instead of RGB.  
 
 * Controller: 
 There’s a wide selection here, and it depends on whether or not you know how to use a soldering iron. My clear recommendation is the HyperSerialPico on one of the three RP2040-based boards, such as the Adafruit Feather RP2040 Scorpio, the Adafruit ItsyBitsy RP2040, or the Pimoroni Plasma 2040. 
