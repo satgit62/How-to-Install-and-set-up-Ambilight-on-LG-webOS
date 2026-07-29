@@ -386,7 +386,9 @@ https://kno.wled.ge/basics/compatible-controllers/
 
 In the second step, we go to LED layout.
 Here you have to create the LED geometry of your TV, enter the exact number of LEDs top, bottom, left and right as well as the input position. (This is the first LED in configuration)
-It is also possible to create a three-sided Ambilight, or a four-sided one with a foot gap. The layout is viewed from the front.
+
+It is also possible to create a four-sided Ambilight without any gaps, or a three-sided or four-sided Ambilight, leaving a gap in the center of the lower section where the TV stand is located. The layout is viewed from the front.
+
 On my devices, I glued the LEDs from the front, bottom left and followed the clockwise direction so that the end of the LED stripe stopped in proximity to the beginning of the LED stripe. Thus, I could feed power to both the beginning and end of the LEDs with only a single AWG 18 silicone two-conductor wire from the power supply.
 
 ![HyperHDR Classic Layout](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/bcdc1c0f-71ff-4d22-b774-0a78e1f7ad29)
