@@ -416,6 +416,13 @@ The settings are important for:
 
 The actual position of the LEDs is determined by these layout specifications. 
 
+# Hide LEDs
+
+If you are using an LED controller other than WLED and no native function is available, you can use the “Disable” function in the LED layout to turn off unused LEDs as needed. To do this, right-click on the LED you want to turn off in the layout. It’s best to use the zoom and LED numbering features when doing this. This is useful, for example, if you don’t want to cut the LED strip but instead want to hide the extra LEDs at the beginning or end of the strip behind the TV, which requires you to remove them from the layout. This ensures that only the LEDs that are supposed to be lit are actually lit. 
+
+<img width="1822" height="790" alt="Disable LED" src="https://github.com/user-attachments/assets/78ed5192-fd76-42dc-be14-03922fb268a7" />
+
+
 # Further instances
 
 Further instances for additional LEDs or lamps can be configured in HyperHDR/Hyperion.NG under LED Hardware Instance Management. 
