@@ -557,8 +557,14 @@ In the LED settings under 'White management'--> 'White Balance correction', unde
 
 If the connection between WLED and router is interrupted, select under WiFi Settings --> Disable WiFi sleep to prevent the ESP from switching off its WiFi. In this case, the ESP32 can consume more power, but the connection remains active.
 
-![WI-FI](https://github.com/satgit62/How-to-Install-and-set-up-Ambilight-on-LG-webOS/assets/68075993/e1578c44-f8a6-465a-921f-73cbe776966d)
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Note:
+When using the ESP266, you should enable “Force 802.11g” mode—this applies exclusively to the ESP8266.
+This prevents interruptions or significant delays in data transmission.
+It has been reported that the Ambilight effect was noticeably delayed without this option; enabling this option resulted in faster data transmission and no longer caused any perceptible delay in the LEDs.
+
+<img width="749" height="1203" alt="WLED WiFi" src="https://github.com/user-attachments/assets/07bd2f4c-1604-4fd0-bc5c-23b3869d6b9b" />
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 # Hardware and wiring diagram:
