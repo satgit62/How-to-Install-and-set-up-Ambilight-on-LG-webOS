@@ -152,7 +152,8 @@ For newer devices with the "QUIRK_DILE_VT_DUMP_LOCATION_2" option switched on (e
 As LG's “AI Picture Pro”, “AI Brightness”, “AI Genre Selection” and "AI Image Game Optimizer", "AI Game Sound" option use the same recording process as hyperion-webos, there may be dropouts during recording. As a result, no live preview in HyperHDR is possible for a short time and the LEDs also switch off briefly. The solution is to disable these options. (can be found under Settings > General > AI Service).
 This bug was discovered by Discord user @James Sunderland. See:https://github.com/webosbrew/hyperion-webos/issues/137
 
-Note:
+# Note:
+
 Starting with webOS 8, image capture may be briefly interrupted every one to two minutes. This is due to a feature that displays a screenshot of the most recent inputs. You can disable this feature by executing the following command:
 ```
 luna-send -n 1 luna://com.webos.service.config/setConfigs '{"configs":{"com.webos.surfacemanager.disableCapture":true},"volatile":false}'
