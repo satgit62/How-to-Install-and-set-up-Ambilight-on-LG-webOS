@@ -105,13 +105,14 @@ The most common resolutions for PicCap are:
 128x72
 ```
 
-# Warning! 
 
+
+# Note:
 HyperHDR:
 
-Do not enable the NV12 option in PicCap if you are using the standard version of HyperHDR from the Homebrew Channel. Please note that additional steps are required to use the NV12 option. The 50 MB file "flat_lut_lin_tables.3d LUT" from the directory `/media/developer/apps/usr/palm/services/org.webosbrew.hyperhdr.loader.service/hyperhdr/` has an invalid size for use with NV12 and must be deleted. For optimal results, you also need different LUT files for different video content (SDR, HDR, and Dolby Vision).
+Starting with version 22.0.1 of the [HyperHDR-WebOS-Loader](https://github.com/webosbrew/hyperhdr-webos-loader/releases) included in the Homebrew Channel, the invalid 'Flat_LUT_Lin_Tables.3D LUT' has been removed from the directory `/media/developer/apps/usr/palm/services/org.webosbrew.hyperhdr.loader.service/hyperhdr/`. In addition, the LUT tables required for the NV12 option have been added to enable playback of SDR, HDR, and Dolby Vision content. This means you can safely enable the NV12 option for better results. 
 
-# You can find a current, specially adapted HyperHDR version, in which the necessary separate LUT tables can be installed via the loader, in another guide I have written. There you will also learn how to perform calibration or fine tuning.
+You can find the latest nightly builds—in which the required separate LUT tables can be installed via a loader menu—in another guide I’ve written. There, you’ll also learn how to get the most out of HyperHDR, including tips on the best settings for RGBW, NW, and CW, calibrating color or LUT tables, and fine-tuning.
 
 You can access the guide at: https://github.com/satgit62/Ultimate-HyperHDR-Ambilight-fine-tuning-experience-for-LG-webOS-with-new-LUT-calibration-.
 
